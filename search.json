@@ -67,7 +67,7 @@
     "href": "presentacion.html#qué-es-una-red-neuronal",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
     "section": "¿Qué es una Red Neuronal?",
-    "text": "¿Qué es una Red Neuronal?\n\n\nPiénsalo como un sistema de toma de decisiones inspirado en el cerebro:\n\nEntradas: Datos crudos (ej., valores de píxeles de una imagen del pulmón)\nCapas ocultas: Cada capa aprende a detectar patrones cada vez más complejos\nSalida: Una predicción (ej., “esta radiografía presenta neumonía”)\n\nLa red aprende por ejemplo — le mostramos miles de imágenes del cerebro ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad."
+    "text": "¿Qué es una Red Neuronal?\n\n\nPiénsalo como un sistema de toma de decisiones inspirado en el cerebro:\n\nEntradas: Datos crudos (ej., valores de píxeles de una imagen del pulmón)\nCapas ocultas: Cada capa aprende a detectar patrones cada vez más complejos\nSalida: Una predicción (ej., “esta radiografía presenta neumonía”)\n\nLa red aprende por ejemplo — le mostramos miles de imágenes del pulmon ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad."
   },
   {
     "objectID": "presentacion.html#predicciones-en-radiología",
