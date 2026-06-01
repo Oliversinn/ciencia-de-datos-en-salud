@@ -5,7 +5,7 @@ author: "Msc. Oliver Mazariegos"
 format: revealjs
 project:
   type: website
-  output-dir: docs 
+  output-dir: archive
 ---
 
 ## Introducción
