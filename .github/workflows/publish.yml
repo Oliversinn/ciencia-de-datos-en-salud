@@ -19,7 +19,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render presentation
-        run: quarto render
+        run: quarto render presentacion.qmd
+
+      - name: Set presentation as site landing page
+        run: cp docs/presentacion.html docs/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
