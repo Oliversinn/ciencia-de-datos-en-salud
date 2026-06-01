@@ -45,173 +45,7 @@ Usar una analogía médica: “Así como un médico limpia y analiza una muestra
 
 ------------------------------------------------------------------------
 
-## Nivel 1: Ciencia de datos en la práctica clínica
-
--   Análisis de registros hospitalarios (Excel, R, Python)
--   Identificación de patrones: tratamientos, medicamentos, reingresos
--   Mejora en la gestión hospitalaria
-
-**Ejemplo:**\
-Un hospital analiza datos de pacientes con diabetes →\
-detecta que el 30% abandona el tratamiento después del tercer mes.
-
-::: notes
-Resalta que esto es ciencia de datos aplicada, aunque se use Excel o R básico.\
-Muestra cómo se puede pasar de datos sueltos a decisiones concretas.
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplo visual
-
-![](img/grafico_diabetes.png){fig-align="center"}
-
-> "A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención."
-
-::: notes
-Mostrar un gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados.
-:::
-
-------------------------------------------------------------------------
-
-## Nivel 2: Salud pública y epidemiología digital
-
--   Datos a gran escala → decisiones poblacionales\
--   Dashboards, vigilancia epidemiológica, predicción de brotes\
--   Ejemplo: COVID-19, dengue, influenza
-
-**Herramientas:** R, Shiny, Power BI, Tableau
-
-::: notes
-Menciona cómo los dashboards ayudaron durante la pandemia.\
-Enfatiza que la ciencia de datos permite anticipar brotes y optimizar recursos.
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplo: Vigilancia de COVID-19
-
-![](img/tablero_covid.png){fig-align="center"}
-
-**Preguntas que se pueden responder:** - ¿Dónde están los focos más activos? - ¿Hay relación geográfica existente? - ¿Cómo cambia semana a semana?
-
-::: notes
-Muestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención.
-:::
-
-------------------------------------------------------------------------
-
-## Nivel 3: Ciencia de datos en investigación clínica
-
--   Evaluación de tratamientos y pronósticos
--   Curvas de supervivencia (Kaplan-Meier)
--   Modelos de riesgo y predicción
-
-**Ejemplo:**\
-Predicción de riesgo de infarto usando presión, colesterol, edad y hábitos.
-
-::: notes
-Destaca que aquí ya se aplican modelos estadísticos o de machine learning.\
-Explica que el objetivo es apoyar, no reemplazar al médico.
-:::
-
-------------------------------------------------------------------------
-
-## Visualización: Curva de supervivencia
-
-![](img/kaplan_meier.png){fig-align="center"}
-
-> "Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia."
-
-::: notes
-Explica qué significa cada curva y cómo ayuda a comparar tratamientos.
-:::
-
-------------------------------------------------------------------------
-
-## Ética y privacidad de los datos
-
--   Los datos de salud son sensibles.\
--   Cumplimiento de normas: consentimiento, anonimización, gobernanza de datos.\
--   Ciencia de datos responsable = confianza pública.
-
-::: notes
-Enfatiza la importancia ética y legal del uso de datos.\
-Menciona ejemplos de buenas prácticas (codificación de pacientes, acceso controlado).
-:::
-
-------------------------------------------------------------------------
-
-## Nivel 4: Bioinformática clínica
-
-> “El nivel más avanzado de ciencia de datos en salud.”
-
--   Análisis de datos genómicos y moleculares.\
--   Identificación de mutaciones, biomarcadores y tratamientos personalizados.\
--   Aplicaciones en virología, enfermedades raras y oncología.
-
-::: notes
-Explica brevemente qué es la bioinformática: aplicar algoritmos y modelos sobre datos biológicos.
-:::
-
-------------------------------------------------------------------------
-
-## Cronología de la genómica
-
-![](img/Timeline-of-major-events-in-genomics-since-the-start-of-the-Human-Genome-Project-until.png){fig-align="center"}
-
-::: notes
-The HapMap project was an international collaboration to create a "haplotype map" of the human genome, which identifies common patterns of human genetic variation
-
-ENCODE is a public research consortium aimed at identifying all functional elements in the human and mouse genomes.
-
-Polygenic Risk Score (PRS) algorithms in genetics, which calculate an individual's risk for a trait or disease
-:::
-
-## Resultados del Proyecto del Genoma Humano
-
-![](img/outcomes_of_genome_project.jpg){fig-align="center"}
-
-## Ejemplo: Vigilancia genómica de virus
-
-![](img/pipeline_genomico.png){fig-align="center"}
-
-**De la muestra al dato:** 
-1.      Secuenciación del virus
-2.      Análisis bioinformático
-3.      Identificación de variantes
-4.      Respuesta de salud pública
-
-::: notes
-Menciona cómo la vigilancia genómica ayudó en la pandemia de COVID-19 y sigue usándose para influenza.
-:::
-
-------------------------------------------------------------------------
-
-## Vigilancia genómica del SARS-CoV-2 en Guatemala
-
-![](img/vigilancia_genomica.png){fig-align="center"}
-
-
-## Ejemplo: Oncología y medicina personalizada
-
-
--   Detección de mutaciones que guían el tratamiento.\
--   Ejemplo: mutación EGFR en cáncer de pulmón → tratamiento dirigido.\
--   Del diagnóstico genético a la terapia personalizada.
-
-::: notes
-Resalta el concepto de “medicina de precisión”: tratamiento según el perfil genético del paciente.
-:::
-
-------------------------------------------------------------------------
-
-## Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer 
-
-![](img/nsclc_egfr_mutations.png){fig-align="center"}
-
-
-## Resumen
+## Recapitulación
 
 | Nivel | Aplicación     | Ejemplo                            |
 |-------|----------------|------------------------------------|
@@ -226,19 +60,183 @@ Repasa brevemente cada nivel como una progresión natural.
 
 ------------------------------------------------------------------------
 
-## Conclusiones
 
--   La ciencia de datos transforma la práctica médica y la salud pública.\
--   Requiere colaboración entre médicos, analistas y científicos.\
--   **El futuro de la medicina está también en los datos.**
+## Nivel 1: Análisis de pacientes con diabetes en nuestra institución
+
+![](img/grafico_diabetes.png){fig-align="center"}
+
+> "A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención."
 
 ::: notes
-Cierra con tono inspirador.
+Mostrar un gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados.
 :::
 
 ------------------------------------------------------------------------
 
+## Nivel 2: Vigilancia de COVID-19
+
+![](img/tablero_covid.png){fig-align="center"}
+
+**Preguntas que se pueden responder:** - ¿Dónde están los focos más activos? - ¿Hay relación geográfica existente? - ¿Cómo cambia semana a semana?
+
+::: notes
+Muestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención.
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 3: Curva de supervivencia
+
+![](img/kaplan_meier.png){fig-align="center"}
+
+> "Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia."
+
+::: notes
+Explica qué significa cada curva y cómo ayuda a comparar tratamientos.
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 4: Medicina de Precisión - Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer 
+
+![](img/nsclc_egfr_mutations.png){fig-align="center"}
+
+
+## ¿Nivel 5? ¿Hacia dónde vamos?
+
+![](img/ai-en-salud.png){fig-align="center"}
+
+
+------------------------------------------------------------------------
+
+## Inteligencia Artificial
+
+![](img/ai-diagram.png){fig-align="center"}
+
+## ¿Qué es una Red Neuronal? {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Piénsalo como un **sistema de toma de decisiones** inspirado en el cerebro:
+
+- **Entradas**: Datos crudos (ej., valores de píxeles de una imagen del pulmón)
+- **Capas ocultas**: Cada capa aprende a detectar patrones cada vez más complejos
+- **Salida**: Una predicción (ej., "esta radiografía presenta neumonía")
+
+La red **aprende por ejemplo** — le mostramos miles de imágenes del cerebro ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad.
+:::
+
+::: {.column width="50%"}
+
+![](img/nn1.png){width="85%" fig-align="center"}
+
+:::
+
+::::
+
+## Predicciones en radiología
+
+![](img/lung-xrays.webp){fig-align="center"}
+
+## Predicciones en radiología
+
+![](img/chest-xrays.png){fig-align="center"}
+
+## Las LLMs predicen la siguiente palabra
+
+![](img/probabilidad-siguiente-palabra.png){fig-align="center"}
+
+## Dividir el lenguaje en tokens
+
+![](img/tokens.png){fig-align="center"}
+
+## Convertir los tokens a algo que comprendan las computadoras (embeddings)
+
+![](img/embeddings.png){fig-align="center"}
+
+## Las palabras similares están cerca entre ellas
+
+![](img/embeddings-space.png){fig-align="center"}
+
+## La magia detrás de las LLM es Deep Neural Networks
+
+![](img/llm-nn.png){fig-align="center"}
+
+## La magia detrás de las LLM es Deep Neural Networks
+
+![](img/muchas-llm-nn.png){fig-align="center"}
+
+## La magia detrás de las LLM es Deep Neural Networks
+
+![](img/respuesta-llm-nn.png){fig-align="center"}
+
+## El secreto detrás de los chatbots que usamos
+
+![](img/llm-brands.jpg){fig-align="center"}
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-fuente-de-datos.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-embeddings.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-search.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-space.png){fig-align="center" style="max-height: 50vh;"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-diagnosis-medication.png){fig-align="center" style="max-height: 50vh;"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## APOLLO - Representación virtual de un paciente
+
+![](img/apollo-clinical-notes.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+## Concluciones
+
+- Los datos por sí solos no bastan; convienen una recolección rigurosa, limpieza, análisis e interpretación clínica para generar impacto.
+- Niveles de aplicación: Clínica, Salud pública, Investigación y Bioinformática.
+- IA y SOTA en salud: modelos de visión (radiología), LLMs y embeddings para texto clínico, y modelos multimodales para representación del paciente.
+- Consideraciones críticas: calidad de datos, validación clínica, interpretación y ética en el uso de IA en salud.
+
+::: notes
+Resalta los llamados a la acción y las consideraciones éticas. Mantener el resumen claro y accionable.
+:::
+
+
 ## Maestría en Ciencia de Datos en Salud - USAC
+
 
 🎓 **Nuevo programa de la Universidad de San Carlos de Guatemala**
 
@@ -246,17 +244,13 @@ Cierra con tono inspirador.
 -   Integración entre informática, estadística y medicina.\
 -   Preparación para los desafíos de la salud digital y la bioinformática clínica.
 
-::: notes
-Conecta todo lo aprendido con el propósito del posgrado.\
-Invita a los participantes a sumarse y aprender a usar los datos para transformar la salud.
-:::
 
 ------------------------------------------------------------------------
 
 ## ¡Gracias!
 
 **Contacto:**\
-📧 oliver\@mazariegos.gt\
+📧 oliver.mazariegos98\@gmail.com\
 💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos
 
 > “El futuro de la salud se construye con datos, ética y colaboración.”

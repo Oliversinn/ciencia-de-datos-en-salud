@@ -14,127 +14,330 @@
     "text": "De los datos a la salud\n\nDe los datos a las decisiones\n\nRecolección (hospital, laboratorio, sensores)\nLimpieza y organización\nAnálisis\nInterpretación clínica\n\n\nExplicar cómo los datos se transforman en conocimiento útil.\nUsar una analogía médica: “Así como un médico limpia y analiza una muestra antes del diagnóstico, un analista limpia y analiza los datos antes de sacar conclusiones.”"
   },
   {
-    "objectID": "presentacion.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
-    "href": "presentacion.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
+    "objectID": "presentacion.html#recapitulación",
+    "href": "presentacion.html#recapitulación",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Nivel 1: Ciencia de datos en la práctica clínica",
-    "text": "Nivel 1: Ciencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios (Excel, R, Python)\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión hospitalaria\n\nEjemplo:\nUn hospital analiza datos de pacientes con diabetes →\ndetecta que el 30% abandona el tratamiento después del tercer mes.\n\nResalta que esto es ciencia de datos aplicada, aunque se use Excel o R básico.\nMuestra cómo se puede pasar de datos sueltos a decisiones concretas."
+    "section": "Recapitulación",
+    "text": "Recapitulación\n\n\n\nNivel\nAplicación\nEjemplo\n\n\n\n\n1\nClínica\nAnálisis de pacientes con diabetes\n\n\n2\nSalud pública\nVigilancia de COVID-19\n\n\n3\nInvestigación\nModelos de riesgo de infarto\n\n\n4\nBioinformática\nMedicina personalizada en cáncer\n\n\n\n\nRepasa brevemente cada nivel como una progresión natural."
   },
   {
-    "objectID": "presentacion.html#ejemplo-visual",
-    "href": "presentacion.html#ejemplo-visual",
+    "objectID": "presentacion.html#nivel-1-análisis-de-pacientes-con-diabetes-en-nuestra-institución",
+    "href": "presentacion.html#nivel-1-análisis-de-pacientes-con-diabetes-en-nuestra-institución",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Ejemplo visual",
-    "text": "Ejemplo visual\n\n\n“A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención.”\n\n\nMostrar un gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados."
+    "section": "Nivel 1: Análisis de pacientes con diabetes en nuestra institución",
+    "text": "Nivel 1: Análisis de pacientes con diabetes en nuestra institución\n\n\n“A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención.”\n\n\nMostrar un gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados."
   },
   {
-    "objectID": "presentacion.html#nivel-2-salud-pública-y-epidemiología-digital",
-    "href": "presentacion.html#nivel-2-salud-pública-y-epidemiología-digital",
+    "objectID": "presentacion.html#nivel-2-vigilancia-de-covid-19",
+    "href": "presentacion.html#nivel-2-vigilancia-de-covid-19",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Nivel 2: Salud pública y epidemiología digital",
-    "text": "Nivel 2: Salud pública y epidemiología digital\n\nDatos a gran escala → decisiones poblacionales\n\nDashboards, vigilancia epidemiológica, predicción de brotes\n\nEjemplo: COVID-19, dengue, influenza\n\nHerramientas: R, Shiny, Power BI, Tableau\n\nMenciona cómo los dashboards ayudaron durante la pandemia.\nEnfatiza que la ciencia de datos permite anticipar brotes y optimizar recursos."
+    "section": "Nivel 2: Vigilancia de COVID-19",
+    "text": "Nivel 2: Vigilancia de COVID-19\n\nPreguntas que se pueden responder: - ¿Dónde están los focos más activos? - ¿Hay relación geográfica existente? - ¿Cómo cambia semana a semana?\n\nMuestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención."
   },
   {
-    "objectID": "presentacion.html#ejemplo-vigilancia-de-covid-19",
-    "href": "presentacion.html#ejemplo-vigilancia-de-covid-19",
+    "objectID": "presentacion.html#nivel-3-curva-de-supervivencia",
+    "href": "presentacion.html#nivel-3-curva-de-supervivencia",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Ejemplo: Vigilancia de COVID-19",
-    "text": "Ejemplo: Vigilancia de COVID-19\n\nPreguntas que se pueden responder: - ¿Dónde están los focos más activos? - ¿Hay relación geográfica existente? - ¿Cómo cambia semana a semana?\n\nMuestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención."
+    "section": "Nivel 3: Curva de supervivencia",
+    "text": "Nivel 3: Curva de supervivencia\n\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia.”\n\n\nExplica qué significa cada curva y cómo ayuda a comparar tratamientos."
   },
   {
-    "objectID": "presentacion.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
-    "href": "presentacion.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
+    "objectID": "presentacion.html#nivel-4-medicina-de-precisión---targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
+    "href": "presentacion.html#nivel-4-medicina-de-precisión---targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Nivel 3: Ciencia de datos en investigación clínica",
-    "text": "Nivel 3: Ciencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nCurvas de supervivencia (Kaplan-Meier)\nModelos de riesgo y predicción\n\nEjemplo:\nPredicción de riesgo de infarto usando presión, colesterol, edad y hábitos.\n\nDestaca que aquí ya se aplican modelos estadísticos o de machine learning.\nExplica que el objetivo es apoyar, no reemplazar al médico."
+    "section": "Nivel 4: Medicina de Precisión - Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer",
+    "text": "Nivel 4: Medicina de Precisión - Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer"
   },
   {
-    "objectID": "presentacion.html#visualización-curva-de-supervivencia",
-    "href": "presentacion.html#visualización-curva-de-supervivencia",
+    "objectID": "presentacion.html#nivel-5-hacia-dónde-vamos",
+    "href": "presentacion.html#nivel-5-hacia-dónde-vamos",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Visualización: Curva de supervivencia",
-    "text": "Visualización: Curva de supervivencia\n\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia.”\n\n\nExplica qué significa cada curva y cómo ayuda a comparar tratamientos."
+    "section": "¿Nivel 5? ¿Hacia dónde vamos?",
+    "text": "¿Nivel 5? ¿Hacia dónde vamos?"
   },
   {
-    "objectID": "presentacion.html#ética-y-privacidad-de-los-datos",
-    "href": "presentacion.html#ética-y-privacidad-de-los-datos",
+    "objectID": "presentacion.html#inteligencia-artificial",
+    "href": "presentacion.html#inteligencia-artificial",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Ética y privacidad de los datos",
-    "text": "Ética y privacidad de los datos\n\nLos datos de salud son sensibles.\n\nCumplimiento de normas: consentimiento, anonimización, gobernanza de datos.\n\nCiencia de datos responsable = confianza pública.\n\n\nEnfatiza la importancia ética y legal del uso de datos.\nMenciona ejemplos de buenas prácticas (codificación de pacientes, acceso controlado)."
+    "section": "Inteligencia Artificial",
+    "text": "Inteligencia Artificial"
   },
   {
-    "objectID": "presentacion.html#nivel-4-bioinformática-clínica",
-    "href": "presentacion.html#nivel-4-bioinformática-clínica",
+    "objectID": "presentacion.html#qué-es-una-red-neuronal",
+    "href": "presentacion.html#qué-es-una-red-neuronal",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Nivel 4: Bioinformática clínica",
-    "text": "Nivel 4: Bioinformática clínica\n\n“El nivel más avanzado de ciencia de datos en salud.”\n\n\nAnálisis de datos genómicos y moleculares.\n\nIdentificación de mutaciones, biomarcadores y tratamientos personalizados.\n\nAplicaciones en virología, enfermedades raras y oncología.\n\n\nExplica brevemente qué es la bioinformática: aplicar algoritmos y modelos sobre datos biológicos."
+    "section": "¿Qué es una Red Neuronal?",
+    "text": "¿Qué es una Red Neuronal?\n\n\nPiénsalo como un sistema de toma de decisiones inspirado en el cerebro:\n\nEntradas: Datos crudos (ej., valores de píxeles de una imagen del pulmón)\nCapas ocultas: Cada capa aprende a detectar patrones cada vez más complejos\nSalida: Una predicción (ej., “esta radiografía presenta neumonía”)\n\nLa red aprende por ejemplo — le mostramos miles de imágenes del cerebro ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad."
   },
   {
-    "objectID": "presentacion.html#cronología-de-la-genómica",
-    "href": "presentacion.html#cronología-de-la-genómica",
+    "objectID": "presentacion.html#predicciones-en-radiología",
+    "href": "presentacion.html#predicciones-en-radiología",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Cronología de la genómica",
-    "text": "Cronología de la genómica\n\n\nThe HapMap project was an international collaboration to create a “haplotype map” of the human genome, which identifies common patterns of human genetic variation\nENCODE is a public research consortium aimed at identifying all functional elements in the human and mouse genomes.\nPolygenic Risk Score (PRS) algorithms in genetics, which calculate an individual’s risk for a trait or disease"
+    "section": "Predicciones en radiología",
+    "text": "Predicciones en radiología"
   },
   {
-    "objectID": "presentacion.html#resultados-del-proyecto-del-genoma-humano",
-    "href": "presentacion.html#resultados-del-proyecto-del-genoma-humano",
+    "objectID": "presentacion.html#predicciones-en-radiología-1",
+    "href": "presentacion.html#predicciones-en-radiología-1",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Resultados del Proyecto del Genoma Humano",
-    "text": "Resultados del Proyecto del Genoma Humano"
+    "section": "Predicciones en radiología",
+    "text": "Predicciones en radiología"
   },
   {
-    "objectID": "presentacion.html#ejemplo-vigilancia-genómica-de-virus",
-    "href": "presentacion.html#ejemplo-vigilancia-genómica-de-virus",
+    "objectID": "presentacion.html#las-llms-predicen-la-siguiente-palabra",
+    "href": "presentacion.html#las-llms-predicen-la-siguiente-palabra",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Ejemplo: Vigilancia genómica de virus",
-    "text": "Ejemplo: Vigilancia genómica de virus\n\nDe la muestra al dato: 1. Secuenciación del virus 2. Análisis bioinformático 3. Identificación de variantes 4. Respuesta de salud pública\n\nMenciona cómo la vigilancia genómica ayudó en la pandemia de COVID-19 y sigue usándose para influenza."
+    "section": "Las LLMs predicen la siguiente palabra",
+    "text": "Las LLMs predicen la siguiente palabra"
   },
   {
-    "objectID": "presentacion.html#vigilancia-genómica-del-sars-cov-2-en-guatemala",
-    "href": "presentacion.html#vigilancia-genómica-del-sars-cov-2-en-guatemala",
+    "objectID": "presentacion.html#dividir-el-lenguaje-en-tokens",
+    "href": "presentacion.html#dividir-el-lenguaje-en-tokens",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Vigilancia genómica del SARS-CoV-2 en Guatemala",
-    "text": "Vigilancia genómica del SARS-CoV-2 en Guatemala"
+    "section": "Dividir el lenguaje en tokens",
+    "text": "Dividir el lenguaje en tokens"
   },
   {
-    "objectID": "presentacion.html#ejemplo-oncología-y-medicina-personalizada",
-    "href": "presentacion.html#ejemplo-oncología-y-medicina-personalizada",
+    "objectID": "presentacion.html#convertir-los-tokens-a-algo-que-comprendan-las-computadoras-embeddings",
+    "href": "presentacion.html#convertir-los-tokens-a-algo-que-comprendan-las-computadoras-embeddings",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Ejemplo: Oncología y medicina personalizada",
-    "text": "Ejemplo: Oncología y medicina personalizada\n\nDetección de mutaciones que guían el tratamiento.\n\nEjemplo: mutación EGFR en cáncer de pulmón → tratamiento dirigido.\n\nDel diagnóstico genético a la terapia personalizada.\n\n\nResalta el concepto de “medicina de precisión”: tratamiento según el perfil genético del paciente."
+    "section": "Convertir los tokens a algo que comprendan las computadoras (embeddings)",
+    "text": "Convertir los tokens a algo que comprendan las computadoras (embeddings)"
   },
   {
-    "objectID": "presentacion.html#targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
-    "href": "presentacion.html#targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
+    "objectID": "presentacion.html#las-palabras-similares-están-cerca-entre-ellas",
+    "href": "presentacion.html#las-palabras-similares-están-cerca-entre-ellas",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer",
-    "text": "Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer"
+    "section": "Las palabras similares están cerca entre ellas",
+    "text": "Las palabras similares están cerca entre ellas"
   },
   {
-    "objectID": "presentacion.html#resumen",
-    "href": "presentacion.html#resumen",
+    "objectID": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks",
+    "href": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Resumen",
-    "text": "Resumen\n\n\n\nNivel\nAplicación\nEjemplo\n\n\n\n\n1\nClínica\nAnálisis de pacientes con diabetes\n\n\n2\nSalud pública\nVigilancia de COVID-19\n\n\n3\nInvestigación\nModelos de riesgo de infarto\n\n\n4\nBioinformática\nMedicina personalizada en cáncer\n\n\n\n\nRepasa brevemente cada nivel como una progresión natural."
+    "section": "La magia detrás de las LLM es Deep Neural Networks",
+    "text": "La magia detrás de las LLM es Deep Neural Networks"
   },
   {
-    "objectID": "presentacion.html#conclusiones",
-    "href": "presentacion.html#conclusiones",
+    "objectID": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks-1",
+    "href": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks-1",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\nLa ciencia de datos transforma la práctica médica y la salud pública.\n\nRequiere colaboración entre médicos, analistas y científicos.\n\nEl futuro de la medicina está también en los datos.\n\n\nCierra con tono inspirador."
+    "section": "La magia detrás de las LLM es Deep Neural Networks",
+    "text": "La magia detrás de las LLM es Deep Neural Networks"
+  },
+  {
+    "objectID": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks-2",
+    "href": "presentacion.html#la-magia-detrás-de-las-llm-es-deep-neural-networks-2",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "La magia detrás de las LLM es Deep Neural Networks",
+    "text": "La magia detrás de las LLM es Deep Neural Networks"
+  },
+  {
+    "objectID": "presentacion.html#el-secreto-detrás-de-los-chatbots-que-usamos",
+    "href": "presentacion.html#el-secreto-detrás-de-los-chatbots-que-usamos",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "El secreto detrás de los chatbots que usamos",
+    "text": "El secreto detrás de los chatbots que usamos"
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente-1",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente-1",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente-2",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente-2",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente-3",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente-3",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente-4",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente-4",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#apollo---representación-virtual-de-un-paciente-5",
+    "href": "presentacion.html#apollo---representación-virtual-de-un-paciente-5",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "APOLLO - Representación virtual de un paciente",
+    "text": "APOLLO - Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "presentacion.html#concluciones",
+    "href": "presentacion.html#concluciones",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Concluciones",
+    "text": "Concluciones\n\nLos datos por sí solos no bastan; convienen una recolección rigurosa, limpieza, análisis e interpretación clínica para generar impacto.\nNiveles de aplicación: Clínica, Salud pública, Investigación y Bioinformática.\nIA y SOTA en salud: modelos de visión (radiología), LLMs y embeddings para texto clínico, y modelos multimodales para representación del paciente.\nConsideraciones críticas: calidad de datos, validación clínica, interpretación y ética en el uso de IA en salud.\n\n\nResalta los llamados a la acción y las consideraciones éticas. Mantener el resumen claro y accionable."
   },
   {
     "objectID": "presentacion.html#maestría-en-ciencia-de-datos-en-salud---usac",
     "href": "presentacion.html#maestría-en-ciencia-de-datos-en-salud---usac",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
     "section": "Maestría en Ciencia de Datos en Salud - USAC",
-    "text": "Maestría en Ciencia de Datos en Salud - USAC\n🎓 Nuevo programa de la Universidad de San Carlos de Guatemala\n\nFormación práctica en análisis de datos de salud.\n\nIntegración entre informática, estadística y medicina.\n\nPreparación para los desafíos de la salud digital y la bioinformática clínica.\n\n\nConecta todo lo aprendido con el propósito del posgrado.\nInvita a los participantes a sumarse y aprender a usar los datos para transformar la salud."
+    "text": "Maestría en Ciencia de Datos en Salud - USAC\n🎓 Nuevo programa de la Universidad de San Carlos de Guatemala\n\nFormación práctica en análisis de datos de salud.\n\nIntegración entre informática, estadística y medicina.\n\nPreparación para los desafíos de la salud digital y la bioinformática clínica."
   },
   {
     "objectID": "presentacion.html#gracias",
     "href": "presentacion.html#gracias",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "¡Gracias!",
+    "text": "¡Gracias!\nContacto:\n📧 oliver.mazariegos98@gmail.com\n💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos\n\n“El futuro de la salud se construye con datos, ética y colaboración.”"
+  },
+  {
+    "objectID": "presentacion-2025.html#introducción",
+    "href": "presentacion-2025.html#introducción",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Introducción",
+    "text": "Introducción\n¿Por qué hablar de Ciencia de Datos en Salud?\n\nGeneramos más datos que nunca: historias clínicas, laboratorios, imágenes, genómica.\nPero los datos por sí solos no significan nada sin análisis.\nLa ciencia de datos convierte los datos en decisiones clínicas, políticas y científicas.\n\n\nPresentarte brevemente y contextualizar el crecimiento de los datos en salud.\nEjemplo: “Hoy, cada hospital genera más datos que toda la OMS hace 30 años.”\nEnfatiza que el valor está en el análisis, no en la cantidad."
+  },
+  {
+    "objectID": "presentacion-2025.html#de-los-datos-a-la-salud",
+    "href": "presentacion-2025.html#de-los-datos-a-la-salud",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "De los datos a la salud",
+    "text": "De los datos a la salud\n\nDe los datos a las decisiones\n\nRecolección (hospital, laboratorio, sensores)\nLimpieza y organización\nAnálisis\nInterpretación clínica\n\n\nExplicar cómo los datos se transforman en conocimiento útil.\nUsar una analogía médica: “Así como un médico limpia y analiza una muestra antes del diagnóstico, un analista limpia y analiza los datos antes de sacar conclusiones.”"
+  },
+  {
+    "objectID": "presentacion-2025.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
+    "href": "presentacion-2025.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Nivel 1: Ciencia de datos en la práctica clínica",
+    "text": "Nivel 1: Ciencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios (Excel, R, Python)\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión hospitalaria\n\nEjemplo:\nUn hospital analiza datos de pacientes con diabetes →\ndetecta que el 30% abandona el tratamiento después del tercer mes.\n\nResalta que esto es ciencia de datos aplicada, aunque se use Excel o R básico.\nMuestra cómo se puede pasar de datos sueltos a decisiones concretas."
+  },
+  {
+    "objectID": "presentacion-2025.html#ejemplo-visual",
+    "href": "presentacion-2025.html#ejemplo-visual",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Ejemplo visual",
+    "text": "Ejemplo visual\n\n\n“A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención.”\n\n\nMostrar un gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados."
+  },
+  {
+    "objectID": "presentacion-2025.html#nivel-2-salud-pública-y-epidemiología-digital",
+    "href": "presentacion-2025.html#nivel-2-salud-pública-y-epidemiología-digital",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Nivel 2: Salud pública y epidemiología digital",
+    "text": "Nivel 2: Salud pública y epidemiología digital\n\nDatos a gran escala → decisiones poblacionales\n\nDashboards, vigilancia epidemiológica, predicción de brotes\n\nEjemplo: COVID-19, dengue, influenza\n\nHerramientas: R, Shiny, Power BI, Tableau\n\nMenciona cómo los dashboards ayudaron durante la pandemia.\nEnfatiza que la ciencia de datos permite anticipar brotes y optimizar recursos."
+  },
+  {
+    "objectID": "presentacion-2025.html#ejemplo-vigilancia-de-covid-19",
+    "href": "presentacion-2025.html#ejemplo-vigilancia-de-covid-19",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Ejemplo: Vigilancia de COVID-19",
+    "text": "Ejemplo: Vigilancia de COVID-19\n\nPreguntas que se pueden responder: - ¿Dónde están los focos más activos? - ¿Hay relación geográfica existente? - ¿Cómo cambia semana a semana?\n\nMuestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención."
+  },
+  {
+    "objectID": "presentacion-2025.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
+    "href": "presentacion-2025.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Nivel 3: Ciencia de datos en investigación clínica",
+    "text": "Nivel 3: Ciencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nCurvas de supervivencia (Kaplan-Meier)\nModelos de riesgo y predicción\n\nEjemplo:\nPredicción de riesgo de infarto usando presión, colesterol, edad y hábitos.\n\nDestaca que aquí ya se aplican modelos estadísticos o de machine learning.\nExplica que el objetivo es apoyar, no reemplazar al médico."
+  },
+  {
+    "objectID": "presentacion-2025.html#visualización-curva-de-supervivencia",
+    "href": "presentacion-2025.html#visualización-curva-de-supervivencia",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Visualización: Curva de supervivencia",
+    "text": "Visualización: Curva de supervivencia\n\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia.”\n\n\nExplica qué significa cada curva y cómo ayuda a comparar tratamientos."
+  },
+  {
+    "objectID": "presentacion-2025.html#ética-y-privacidad-de-los-datos",
+    "href": "presentacion-2025.html#ética-y-privacidad-de-los-datos",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Ética y privacidad de los datos",
+    "text": "Ética y privacidad de los datos\n\nLos datos de salud son sensibles.\n\nCumplimiento de normas: consentimiento, anonimización, gobernanza de datos.\n\nCiencia de datos responsable = confianza pública.\n\n\nEnfatiza la importancia ética y legal del uso de datos.\nMenciona ejemplos de buenas prácticas (codificación de pacientes, acceso controlado)."
+  },
+  {
+    "objectID": "presentacion-2025.html#nivel-4-bioinformática-clínica",
+    "href": "presentacion-2025.html#nivel-4-bioinformática-clínica",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Nivel 4: Bioinformática clínica",
+    "text": "Nivel 4: Bioinformática clínica\n\n“El nivel más avanzado de ciencia de datos en salud.”\n\n\nAnálisis de datos genómicos y moleculares.\n\nIdentificación de mutaciones, biomarcadores y tratamientos personalizados.\n\nAplicaciones en virología, enfermedades raras y oncología.\n\n\nExplica brevemente qué es la bioinformática: aplicar algoritmos y modelos sobre datos biológicos."
+  },
+  {
+    "objectID": "presentacion-2025.html#cronología-de-la-genómica",
+    "href": "presentacion-2025.html#cronología-de-la-genómica",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Cronología de la genómica",
+    "text": "Cronología de la genómica\n\n\nThe HapMap project was an international collaboration to create a “haplotype map” of the human genome, which identifies common patterns of human genetic variation\nENCODE is a public research consortium aimed at identifying all functional elements in the human and mouse genomes.\nPolygenic Risk Score (PRS) algorithms in genetics, which calculate an individual’s risk for a trait or disease"
+  },
+  {
+    "objectID": "presentacion-2025.html#resultados-del-proyecto-del-genoma-humano",
+    "href": "presentacion-2025.html#resultados-del-proyecto-del-genoma-humano",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Resultados del Proyecto del Genoma Humano",
+    "text": "Resultados del Proyecto del Genoma Humano"
+  },
+  {
+    "objectID": "presentacion-2025.html#ejemplo-vigilancia-genómica-de-virus",
+    "href": "presentacion-2025.html#ejemplo-vigilancia-genómica-de-virus",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Ejemplo: Vigilancia genómica de virus",
+    "text": "Ejemplo: Vigilancia genómica de virus\n\nDe la muestra al dato: 1. Secuenciación del virus 2. Análisis bioinformático 3. Identificación de variantes 4. Respuesta de salud pública\n\nMenciona cómo la vigilancia genómica ayudó en la pandemia de COVID-19 y sigue usándose para influenza."
+  },
+  {
+    "objectID": "presentacion-2025.html#vigilancia-genómica-del-sars-cov-2-en-guatemala",
+    "href": "presentacion-2025.html#vigilancia-genómica-del-sars-cov-2-en-guatemala",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Vigilancia genómica del SARS-CoV-2 en Guatemala",
+    "text": "Vigilancia genómica del SARS-CoV-2 en Guatemala"
+  },
+  {
+    "objectID": "presentacion-2025.html#ejemplo-oncología-y-medicina-personalizada",
+    "href": "presentacion-2025.html#ejemplo-oncología-y-medicina-personalizada",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Ejemplo: Oncología y medicina personalizada",
+    "text": "Ejemplo: Oncología y medicina personalizada\n\nDetección de mutaciones que guían el tratamiento.\n\nEjemplo: mutación EGFR en cáncer de pulmón → tratamiento dirigido.\n\nDel diagnóstico genético a la terapia personalizada.\n\n\nResalta el concepto de “medicina de precisión”: tratamiento según el perfil genético del paciente."
+  },
+  {
+    "objectID": "presentacion-2025.html#targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
+    "href": "presentacion-2025.html#targeting-egfr-exon-20-insertion-mutations-in-non-small-cell-lung-cancer",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer",
+    "text": "Targeting EGFR exon 20 insertion mutations in non-small cell lung cancer"
+  },
+  {
+    "objectID": "presentacion-2025.html#resumen",
+    "href": "presentacion-2025.html#resumen",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Resumen",
+    "text": "Resumen\n\n\n\nNivel\nAplicación\nEjemplo\n\n\n\n\n1\nClínica\nAnálisis de pacientes con diabetes\n\n\n2\nSalud pública\nVigilancia de COVID-19\n\n\n3\nInvestigación\nModelos de riesgo de infarto\n\n\n4\nBioinformática\nMedicina personalizada en cáncer\n\n\n\n\nRepasa brevemente cada nivel como una progresión natural."
+  },
+  {
+    "objectID": "presentacion-2025.html#conclusiones",
+    "href": "presentacion-2025.html#conclusiones",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\nLa ciencia de datos transforma la práctica médica y la salud pública.\n\nRequiere colaboración entre médicos, analistas y científicos.\n\nEl futuro de la medicina está también en los datos.\n\n\nCierra con tono inspirador."
+  },
+  {
+    "objectID": "presentacion-2025.html#maestría-en-ciencia-de-datos-en-salud---usac",
+    "href": "presentacion-2025.html#maestría-en-ciencia-de-datos-en-salud---usac",
+    "title": "Aplicaciones de la Ciencia de Datos en Salud",
+    "section": "Maestría en Ciencia de Datos en Salud - USAC",
+    "text": "Maestría en Ciencia de Datos en Salud - USAC\n🎓 Nuevo programa de la Universidad de San Carlos de Guatemala\n\nFormación práctica en análisis de datos de salud.\n\nIntegración entre informática, estadística y medicina.\n\nPreparación para los desafíos de la salud digital y la bioinformática clínica.\n\n\nConecta todo lo aprendido con el propósito del posgrado.\nInvita a los participantes a sumarse y aprender a usar los datos para transformar la salud."
+  },
+  {
+    "objectID": "presentacion-2025.html#gracias",
+    "href": "presentacion-2025.html#gracias",
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
     "section": "¡Gracias!",
     "text": "¡Gracias!\nContacto:\n📧 oliver@mazariegos.gt\n💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos\n\n“El futuro de la salud se construye con datos, ética y colaboración.”"
