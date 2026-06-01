@@ -124,7 +124,7 @@ Piénsalo como un **sistema de toma de decisiones** inspirado en el cerebro:
 - **Capas ocultas**: Cada capa aprende a detectar patrones cada vez más complejos
 - **Salida**: Una predicción (ej., "esta radiografía presenta neumonía")
 
-La red **aprende por ejemplo** — le mostramos miles de imágenes del cerebro ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad.
+La red **aprende por ejemplo** — le mostramos miles de imágenes del pulmon ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad.
 :::
 
 ::: {.column width="50%"}
