@@ -1,0 +1,582 @@
+---
+title: "Descifrando la Salud a través de los Datos"
+subtitle: "Lección Inaugural — Maestría en Ciencia de Datos en Salud"
+author: "Msc. Oliver Mazariegos"
+date: "11 de julio de 2026"
+format: revealjs
+project:
+  type: website
+  output-dir: docs
+---
+
+## Bienvenida
+
+**Bienvenidos a un momento histórico.**
+
+-   Hoy nace la **primera Maestría en Ciencia de Datos en Salud de Guatemala**.
+-   Ustedes no son solo estudiantes de un nuevo programa: son la **primera generación**.
+-   Lo que aprendan aquí no existía como carrera formal en este país hace un año.
+
+::: notes
+Abrir con calidez y solemnidad, sin ser acartonado. Reconocer a autoridades de USAC, gerencia de la maestría, y a los estudiantes.
+Frase sugerida: "Lo que hoy inicia no es solamente un posgrado más: es la respuesta de Guatemala a una pregunta que el mundo entero se está haciendo — ¿cómo formamos profesionales capaces de traducir datos en salud, en salud real, para la gente?"
+Dar tiempo para aplausos si es apropiado.
+:::
+
+------------------------------------------------------------------------
+
+## Un momento histórico para Guatemala
+
+![PLACEHOLDER: img/bienvenida-guatemala-datos-salud.png](img/bienvenida-guatemala-datos-salud.png){fig-align="center"}
+
+::: notes
+Esta imagen abre emocionalmente la charla — transmite orgullo, novedad y pertenencia.
+:::
+
+::: {.callout-note}
+**Prompt sugerido para generar esta imagen (Nano Banana / Gemini):**
+"A modern, elegant editorial illustration celebrating the launch of Guatemala's first Master's program in Health Data Science. Blend subtle motifs of healthcare (a stethoscope forming a heartbeat line) with data science (a soft network of glowing nodes and a rising bar chart) in one cohesive composition. Warm, hopeful color palette using sky blue and white tones reminiscent of Guatemala without using the flag literally. Clean, minimal, high-end conference-keynote style, no text, no real people, no logos."
+:::
+
+------------------------------------------------------------------------
+
+## ¿Quiénes están en esta sala?
+
+-   La mayoría de ustedes son **profesionales de la salud**: médicos, enfermeras, epidemiólogos, farmacéuticos, nutricionistas.
+-   No necesitan ser programadores para estar aquí — necesitan **curiosidad y visión clínica**.
+-   Esta maestría existe precisamente para ustedes: para traducir su experiencia clínica en preguntas que los datos puedan responder.
+
+::: notes
+Es clave desactivar el miedo al "no soy de tecnología". Enfatizar que el valor que traen es su conocimiento clínico, no su experiencia con código.
+Ejemplo: "El mejor científico de datos en salud no es el que mejor programa, es el que mejor sabe qué pregunta clínica vale la pena hacerle a los datos."
+:::
+
+------------------------------------------------------------------------
+
+## Lo que vamos a recorrer hoy
+
+1.  Por qué la ciencia de datos importa en salud
+2.  Los niveles de aplicación — de lo simple a lo más avanzado
+3.  Hacia dónde va el futuro: inteligencia artificial y modelos de lenguaje
+4.  Qué significa todo esto para ustedes como la primera generación de esta maestría
+
+::: notes
+Dar el mapa de ruta para que la audiencia sepa qué esperar en la hora siguiente. Mantener tono de invitación, no de examen.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Por qué hablar de Ciencia de Datos en Salud?
+
+-   Generamos más datos que nunca: historias clínicas, laboratorios, imágenes, genómica.
+-   Pero los datos por sí solos **no significan nada** sin análisis.
+-   La ciencia de datos convierte los datos en **decisiones clínicas, políticas y científicas.**
+
+::: notes
+Contextualizar el crecimiento de los datos en salud.
+Ejemplo: "Hoy, cada hospital genera más datos que toda la OMS hace 30 años."
+Enfatiza que el valor está en el análisis, no en la cantidad.
+:::
+
+------------------------------------------------------------------------
+
+## De los datos a la salud
+
+![](img/flujo_de_datos.png){fig-align="center"}
+
+**De los datos a las decisiones**
+
+1.  Recolección (hospital, laboratorio, sensores)
+2.  Limpieza y organización
+3.  Análisis
+4.  Interpretación clínica
+
+::: notes
+Usar la analogía médica: "Así como un médico limpia y analiza una muestra antes del diagnóstico, un analista limpia y analiza los datos antes de sacar conclusiones."
+:::
+
+------------------------------------------------------------------------
+
+## Cuatro niveles, una misma disciplina
+
+![PLACEHOLDER: img/piramide-niveles-datos-salud.png](img/piramide-niveles-datos-salud.png){fig-align="center"}
+
+::: notes
+Presentar la pirámide como preview de lo que viene. No profundizar todavía, solo dar el mapa visual.
+:::
+
+::: {.callout-note}
+**Prompt sugerido:**
+"A clean, minimal infographic pyramid diagram with 4 ascending levels, each labeled conceptually with a simple icon (no readable text needed, icons only): Level 1 a hospital/clinical chart icon, Level 2 a population/map icon, Level 3 a magnifying glass over a curve/graph icon, Level 4 a DNA helix icon. Flat design, soft blues and teals, plenty of white space, professional academic keynote style, no text labels, no people, no logos."
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 1: Ciencia de datos en la práctica clínica
+
+-   Análisis de registros hospitalarios (Excel, R, Python)
+-   Identificación de patrones: tratamientos, medicamentos, reingresos
+-   Mejora en la gestión hospitalaria
+
+**Ejemplo:**\
+Un hospital analiza datos de pacientes con diabetes →\
+detecta que el 30% abandona el tratamiento después del tercer mes.
+
+::: notes
+Resalta que esto es ciencia de datos aplicada, aunque se use Excel o R básico.
+Muestra cómo se puede pasar de datos sueltos a decisiones concretas.
+:::
+
+------------------------------------------------------------------------
+
+## Ejemplo visual: Nivel 1
+
+![](img/grafico_diabetes.png){fig-align="center"}
+
+> "A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención."
+
+::: notes
+Gráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados.
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 2: Salud pública y epidemiología digital
+
+-   Datos a gran escala → decisiones poblacionales
+-   Dashboards, vigilancia epidemiológica, predicción de brotes
+-   Ejemplo: COVID-19, dengue, influenza
+
+**Herramientas:** R, Shiny, Power BI, Tableau
+
+::: notes
+Menciona cómo los dashboards ayudaron durante la pandemia.
+Enfatiza que la ciencia de datos permite anticipar brotes y optimizar recursos.
+:::
+
+------------------------------------------------------------------------
+
+## Ejemplo visual: Nivel 2
+
+![](img/tablero_covid.png){fig-align="center"}
+
+**Preguntas que se pueden responder:**
+
+-   ¿Dónde están los focos más activos?
+-   ¿Hay relación geográfica existente?
+-   ¿Cómo cambia semana a semana?
+
+::: notes
+Muestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención.
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 3: Ciencia de datos en investigación clínica
+
+-   Evaluación de tratamientos y pronósticos
+-   Curvas de supervivencia (Kaplan-Meier)
+-   Modelos de riesgo y predicción
+
+**Ejemplo:**\
+Predicción de riesgo de infarto usando presión, colesterol, edad y hábitos.
+
+::: notes
+Destaca que aquí ya se aplican modelos estadísticos o de machine learning.
+Explica que el objetivo es apoyar, no reemplazar al médico.
+:::
+
+------------------------------------------------------------------------
+
+## Ejemplo visual: Nivel 3
+
+![](img/kaplan_meier.png){fig-align="center"}
+
+> "Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia."
+
+::: notes
+Explica qué significa cada curva y cómo ayuda a comparar tratamientos.
+:::
+
+------------------------------------------------------------------------
+
+## Nivel 4: Bioinformática clínica
+
+> "El nivel más avanzado de ciencia de datos en salud."
+
+-   Análisis de datos genómicos y moleculares.
+-   Identificación de mutaciones, biomarcadores y tratamientos personalizados.
+-   Aplicaciones en virología, enfermedades raras y oncología.
+
+::: notes
+Explica brevemente qué es la bioinformática: aplicar algoritmos y modelos sobre datos biológicos.
+:::
+
+------------------------------------------------------------------------
+
+## Ejemplo visual: Nivel 4 — Medicina de precisión
+
+![](img/nsclc_egfr_mutations.png){fig-align="center"}
+
+-   Detección de mutaciones que guían el tratamiento.
+-   Ejemplo: mutación EGFR en cáncer de pulmón → tratamiento dirigido.
+-   Del diagnóstico genético a la terapia personalizada.
+
+::: notes
+Resalta el concepto de "medicina de precisión": tratamiento según el perfil genético del paciente.
+:::
+
+------------------------------------------------------------------------
+
+## Ética y privacidad de los datos
+
+-   Los datos de salud son sensibles.
+-   Cumplimiento de normas: consentimiento, anonimización, gobernanza de datos.
+-   Ciencia de datos responsable = confianza pública.
+
+::: notes
+Enfatiza la importancia ética y legal del uso de datos.
+Menciona ejemplos de buenas prácticas (codificación de pacientes, acceso controlado).
+:::
+
+------------------------------------------------------------------------
+
+## Recapitulación
+
+| Nivel | Aplicación     | Ejemplo                            |
+|-------|----------------|-------------------------------------|
+| 1     | Clínica        | Análisis de pacientes con diabetes |
+| 2     | Salud pública  | Vigilancia de COVID-19             |
+| 3     | Investigación  | Modelos de riesgo de infarto       |
+| 4     | Bioinformática | Medicina personalizada en cáncer   |
+
+::: notes
+Repasa brevemente cada nivel como una progresión natural. Este es el cierre de la primera mitad de la charla — de aquí en adelante hablamos del futuro.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Nivel 5? ¿Hacia dónde vamos?
+
+![](img/ai-en-salud.png){fig-align="center"}
+
+::: notes
+Transición hacia la sección de inteligencia artificial. Plantear la pregunta abiertamente: "¿Qué viene después de la bioinformática?"
+:::
+
+------------------------------------------------------------------------
+
+## Inteligencia Artificial
+
+![](img/ai-diagram.png){fig-align="center"}
+
+::: notes
+Ubicar IA, machine learning y deep learning como conceptos anidados, sin entrar aún en detalle técnico.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Qué es una Red Neuronal? {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Piénsalo como un **sistema de toma de decisiones** inspirado en el cerebro:
+
+-   **Entradas**: Datos crudos (ej., valores de píxeles de una imagen del pulmón)
+-   **Capas ocultas**: Cada capa aprende a detectar patrones cada vez más complejos
+-   **Salida**: Una predicción (ej., "esta radiografía presenta neumonía")
+
+La red **aprende por ejemplo** — le mostramos miles de imágenes del pulmón ya etiquetadas, y descubre qué patrones corresponden a cada tipo de enfermedad.
+:::
+
+::: {.column width="50%"}
+![](img/nn1.png){width="85%" fig-align="center"}
+:::
+
+::::
+
+------------------------------------------------------------------------
+
+## Predicciones en radiología
+
+![](img/lung-xrays.webp){fig-align="center"}
+
+::: notes
+Ejemplo tangible y cercano para profesionales de salud: modelos de visión ya usados en radiología.
+:::
+
+------------------------------------------------------------------------
+
+## Predicciones en radiología
+
+![](img/chest-xrays.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Las LLMs predicen la siguiente palabra
+
+![](img/probabilidad-siguiente-palabra.png){fig-align="center"}
+
+::: notes
+Aquí empieza la transición de modelos de visión a modelos de lenguaje (LLMs), que es el puente hacia APOLLO más adelante.
+:::
+
+------------------------------------------------------------------------
+
+## Dividir el lenguaje en tokens
+
+![](img/tokens.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Convertir los tokens a algo que comprendan las computadoras (embeddings)
+
+![](img/embeddings.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Las palabras similares están cerca entre ellas
+
+![](img/embeddings-space.png){fig-align="center"}
+
+::: notes
+Este concepto de "espacio de embeddings" es clave para entender más adelante cómo APOLLO representa pacientes, no solo palabras.
+:::
+
+------------------------------------------------------------------------
+
+## La magia detrás de las LLM es Deep Neural Networks
+
+![](img/llm-nn.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## El secreto detrás de los chatbots que usamos
+
+![](img/llm-brands.jpg){fig-align="center"}
+
+::: notes
+Cerrar la sección de LLMs generales conectando con herramientas que la audiencia ya conoce (ChatGPT, Gemini, Claude, etc.).
+:::
+
+------------------------------------------------------------------------
+
+## De los chatbots... a representar a un paciente
+
+![PLACEHOLDER: img/transicion-chatbots-medicina.png](img/transicion-chatbots-medicina.png){fig-align="center"}
+
+**La pregunta que están haciendo los investigadores hoy:**\
+Si un modelo puede aprender el "lenguaje" de las palabras... ¿puede aprender el "lenguaje" de un paciente completo?
+
+::: notes
+Slide de transición emocional/conceptual antes de introducir APOLLO. Dar una pausa dramática aquí — es el corazón de la sección de futuro.
+:::
+
+::: {.callout-note}
+**Prompt sugerido:**
+"A minimal, elegant conceptual illustration showing a chat bubble icon on the left smoothly morphing/transforming into a stylized patient medical file or human silhouette made of data points on the right, connected by a subtle flowing gradient line. Soft teal and blue palette, flat vector style, lots of white space, no text, no real people, no logos, professional keynote aesthetic."
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-fuente-de-datos.png){fig-align="center"}
+
+**La idea central:** usar la misma tecnología detrás de los LLMs — pero en vez de aprender el lenguaje humano, aprender el "lenguaje" de la historia clínica completa de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+::: notes
+Explicar en términos simples: así como un LLM convierte palabras en vectores (embeddings), APOLLO convierte TODO el historial de un paciente en un vector — una "huella digital" matemática de su estado de salud.
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-embeddings.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-search.png){fig-align="center"}
+
+**¿Para qué sirve esto en la práctica?**
+
+-   Encontrar pacientes "similares" en millones de historias clínicas en segundos.
+-   Anticipar qué tratamientos funcionaron en casos parecidos.
+-   Apoyar decisiones clínicas con evidencia de la propia institución.
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+::: notes
+Ser explícito con casos de uso concretos, ya que esta es la parte donde la audiencia debe entender el "para qué", no solo el "cómo".
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-space.png){fig-align="center" style="max-height: 50vh;"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-diagnosis-medication.png){fig-align="center" style="max-height: 50vh;"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+------------------------------------------------------------------------
+
+## APOLLO — Representación virtual de un paciente
+
+![](img/apollo-clinical-notes.png){fig-align="center"}
+
+::: aside
+Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.
+:::
+
+::: notes
+Cerrar esta sub-sección notando que esto todavía es investigación de frontera (2026) — no es ciencia ficción, pero tampoco es una herramienta lista para usarse mañana en un hospital guatemalteco. Es el horizonte hacia donde va el campo.
+:::
+
+------------------------------------------------------------------------
+
+## ¿Qué significa esto para ustedes?
+
+-   Estos modelos no reemplazan al profesional de salud — necesitan profesionales que sepan **qué preguntarles y cómo interpretarlos**.
+-   Guatemala no tiene que esperar a que esta tecnología llegue "de afuera" — puede formar gente que la entienda, la adapte y la use con criterio clínico.
+-   Ese es exactamente el vacío que esta maestría busca llenar.
+
+::: notes
+Este es el puente explícito entre "el futuro de la IA en salud" y "por qué esta maestría importa". Hablar con convicción — esta es la tesis central de la charla.
+:::
+
+------------------------------------------------------------------------
+
+## La Maestría en Ciencia de Datos en Salud — USAC
+
+🎓 **El primer programa de su tipo en Guatemala**
+
+-   Nace de la necesidad de traducir datos en decisiones, en un país donde la salud lo necesita con urgencia.
+-   Integra informática, estadística, epidemiología y medicina en un mismo espacio.
+-   Prepara profesionales para los desafíos de la salud digital, hoy y en los años que vienen.
+
+::: notes
+No profundizar en detalles curriculares específicos (duración, módulos, requisitos) — esos se comunican en otro momento por la gerencia del programa. Aquí el foco es el "por qué" y el "para qué".
+:::
+
+------------------------------------------------------------------------
+
+## Por qué esta maestría, por qué ahora
+
+![PLACEHOLDER: img/primera-generacion-guatemala.png](img/primera-generacion-guatemala.png){fig-align="center"}
+
+-   Guatemala genera datos de salud todos los días — en cada hospital, cada clínica, cada campaña de vacunación.
+-   Casi nadie está formado específicamente para convertir esos datos en decisiones.
+-   Ustedes están a punto de llenar ese vacío.
+
+::: notes
+Momento de mayor carga emocional de la charla. Hablar directamente a los estudiantes, no a un público abstracto.
+Frase sugerida: "En cinco años, cuando alguien pregunte quién empezó esto en Guatemala, la respuesta van a ser ustedes."
+:::
+
+::: {.callout-note}
+**Prompt sugerido:**
+"An uplifting, editorial-style flat illustration of a diverse group of health and data professionals (doctors, nurses, and analysts, shown as simple diverse silhouettes without identifiable faces) standing together looking forward toward a horizon made of subtle rising data charts and a sunrise. Warm, hopeful color palette with soft blue and gold tones. No text, no flags, no logos, no real people, clean modern keynote illustration style."
+:::
+
+------------------------------------------------------------------------
+
+## El perfil del profesional que estamos formando
+
+![PLACEHOLDER: img/perfil-profesional-maestria.png](img/perfil-profesional-maestria.png){fig-align="center"}
+
+-   No es un programador que aprendió medicina, ni un médico que aprendió a programar.
+-   Es un **puente**: alguien que entiende el dato y entiende al paciente.
+-   Alguien capaz de hacerle a los datos la pregunta clínica correcta.
+
+::: notes
+Reforzar identidad profesional nueva y valiosa, sin jerarquizar "técnicos" sobre "clínicos" ni viceversa.
+:::
+
+::: {.callout-note}
+**Prompt sugerido:**
+"A minimal, symbolic flat illustration of two abstract human silhouettes meeting in the middle of a bridge: one side subtly associated with healthcare (a soft caduceus or heartbeat line motif), the other side with data (soft bar charts and network nodes), meeting and shaking hands at the center of the bridge. Clean vector style, soft blue and teal tones, no text, no real people, no logos, professional academic keynote aesthetic."
+:::
+
+------------------------------------------------------------------------
+
+## Una comunidad, no solo una maestría
+
+![PLACEHOLDER: img/comunidad-red-colaboracion.png](img/comunidad-red-colaboracion.png){fig-align="center"}
+
+-   Van a construir esto junto a sus compañeros de cohorte, sus profesores, y una red que apenas empieza.
+-   Los errores y aprendizajes de esta primera generación van a definir el camino para las que vienen.
+-   No están solos en esto — y ese es, quizás, el dato más importante de todos.
+
+::: notes
+Cerrar con sentido de comunidad y pertenencia, no solo de logro individual.
+:::
+
+::: {.callout-note}
+**Prompt sugerido:**
+"A warm, minimal network illustration showing multiple simple silhouette figures (representing diverse health and data professionals) connected by soft glowing lines across a stylized map-like background suggesting a country's regions without using a literal flag or borders. Collaborative, community feeling, soft blue and warm gold color palette, flat vector illustration, no text, no real people, no logos, professional keynote style."
+:::
+
+------------------------------------------------------------------------
+
+## Lo que les pido para este camino
+
+-   Traigan su curiosidad clínica — es su ventaja, no su limitación.
+-   No teman al código ni a la estadística — son herramientas, se aprenden con práctica.
+-   Pregúntense siempre: "¿esto ayuda de verdad al paciente, al sistema, a la salud pública?"
+
+::: notes
+Cierre motivacional práctico — qué actitud necesitan traer, no qué conocimientos técnicos.
+:::
+
+------------------------------------------------------------------------
+
+## Conclusiones
+
+-   Los datos por sí solos no bastan; requieren recolección rigurosa, limpieza, análisis e interpretación clínica para generar impacto.
+-   Existen niveles de aplicación — de lo clínico cotidiano hasta la bioinformática — y todos importan.
+-   La frontera actual (IA, LLMs, modelos como APOLLO) apunta hacia una salud cada vez más basada en datos, pero siempre con criterio humano.
+-   Esta maestría existe para formar a quienes van a liderar esa transición en Guatemala — y hoy, ustedes empiezan.
+
+::: notes
+Resumen final antes del cierre formal. Mantenerlo breve y contundente.
+:::
+
+------------------------------------------------------------------------
+
+## ¡Bienvenidos, primera generación!
+
+**Contacto:**\
+📧 oliver.mazariegos98@gmail.com\
+💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos
+
+> "El futuro de la salud se construye con datos, ética y colaboración — y hoy, aquí en Guatemala, empieza con ustedes."
+
+::: notes
+Cierre solemne y cálido. Espacio para aplausos, fotos, o palabras de la gerencia del programa si corresponde a continuación.
+:::

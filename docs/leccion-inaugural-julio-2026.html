@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-49a824ff064150fa59632921ab93e189.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Msc. Oliver Mazariegos">
+  <title>Descifrando la Salud a través de los Datos</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0fca54a7387b4dcfc062432426990608.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-dark">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Descifrando la Salud a través de los Datos</h1>
+  <p class="subtitle">Lección Inaugural — Maestría en Ciencia de Datos en Salud</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Msc. Oliver Mazariegos 
+</div>
+        <p class="quarto-title-affiliation">
+            Universidad de San Carlos de Guatemala
+          </p>
+    </div>
+</div>
+
+</section>
+<section id="bienvenidos-a-un-momento-histórico" class="slide level2">
+<h2>Bienvenidos a un momento histórico</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><br><br></p>
+<p>Esta no es la apertura de un posgrado más.</p>
+<p>Es el inicio de algo que no existía en Guatemala hace un año.</p>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-hero.png" class="quarto-figure quarto-figure-center" style="border-radius: 12px;"></p>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>[~0-3 min] Abrir con calma y presencia. Reconocer a autoridades de USAC, a la gerencia del programa, y a los estudiantes. Pausa antes de hablar — que el silencio genere expectativa. Frase sugerida: “Hoy es el primer día de algo nuevo en Guatemala.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="una-pregunta-para-arrancar" class="slide level2">
+<h2>Una pregunta para arrancar</h2>
+<p><br></p>
+<blockquote>
+<p><em>¿Cuántos de ustedes alguna vez tomaron una decisión clínica, de política pública, o de gestión… y desearon tener más datos?</em></p>
+</blockquote>
+<p><br></p>
+<div class="fragment">
+<blockquote>
+<p><em>¿Y cuántos tenían los datos pero no sabían qué hacer con ellos?</em></p>
+</blockquote>
+<p><br></p>
+</div>
+<div class="fragment">
+<p><strong>Esa brecha es exactamente la que esta maestría existe para cerrar.</strong></p>
+<aside class="notes">
+<p>[~3-5 min] Pedir manos levantadas para cada pregunta. Usar el resultado como punto de partida. Si la mayoría levanta la mano en ambas: “Eso me dice que están en el lugar correcto.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="guatemala-nuestra-realidad-en-datos" class="slide level2 smaller">
+<h2>Guatemala: nuestra realidad en datos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>El problema que enfrentamos:</strong></p>
+<ul>
+<li>🏥 <strong>~0.3 médicos</strong> por cada 1,000 habitantes (OMS recomienda 1)</li>
+<li>🍬 <strong>12% de adultos</strong> con diabetes, muchos sin diagnóstico</li>
+<li>🦟 <strong>+60,000 casos de dengue</strong> en el brote de 2023</li>
+<li>👶 <strong>108 muertes maternas</strong> por cada 100,000 nacidos vivos</li>
+<li>🌽 <strong>46% de niños menores de 5 años</strong> con desnutrición crónica</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Lo que hay disponible:</strong></p>
+<ul>
+<li>Décadas de datos del MSPAS</li>
+<li>Registros hospitalarios del IGSS</li>
+<li>Datos de laboratorio, vacunación, epidemiología</li>
+<li>Registros de programas de salud comunitaria</li>
+</ul>
+<p><br></p>
+<p><strong>El problema:</strong> casi nadie está formado para convertir esos datos en decisiones.</p>
+</div></div>
+<aside class="notes">
+<p>[~5-7 min] Estos números no son para desanimar — son para contextualizar la urgencia y la oportunidad. Énfasis: “Guatemala ya tiene los datos. Lo que no tiene es suficiente gente formada para usarlos.” Si hay personas del MSPAS o del IGSS, reconocerlos: “algunos de ustedes trabajan con esos datos todos los días.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="la-historia-de-la-señora-maría" class="slide level2">
+<h2>La historia de la Señora María</h2>
+<p><br></p>
+<blockquote>
+<p><em>María tiene 52 años, vive en Chimaltenango, y lleva tres años con diabetes tipo 2. Su médico la controla bien en cada consulta. Sus exámenes son razonables. Todo parece en orden.</em></p>
+</blockquote>
+<div class="fragment">
+<blockquote>
+<p><em>Lo que nadie sabe: en ese departamento, el 38% de los pacientes diabéticos como María abandonan el control antes del cuarto mes. El patrón se repite en cada clínica. Siempre en pacientes que viven a más de 40 minutos del centro.</em></p>
+</blockquote>
+</div>
+<div class="fragment">
+<blockquote>
+<p><em>Nadie lo ha analizado. Los datos existen. Están en los registros. Pero duermen.</em></p>
+</blockquote>
+</div>
+<div class="fragment">
+<p><strong>Ciencia de datos en salud es despertar esos datos.</strong></p>
+<aside class="notes">
+<p>[~7-10 min] Esta historia es la columna vertebral de toda la lección. Volver a ella en cada nivel. La historia es ficticia pero representativa de patrones reales. Dejar que la última frase aterrice en silencio antes de pasar al siguiente slide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="lo-que-vamos-a-recorrer-hoy" class="slide level2 smaller">
+<h2>Lo que vamos a recorrer hoy</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 26%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sección</th>
+<th>Tema</th>
+<th>Tiempo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>I</td>
+<td>Por qué la ciencia de datos importa — y por qué ustedes</td>
+<td>~8 min</td>
+</tr>
+<tr class="even">
+<td>II</td>
+<td>Los cuatro niveles: de la consulta a la bioinformática</td>
+<td>~20 min</td>
+</tr>
+<tr class="odd">
+<td>III</td>
+<td>Inteligencia artificial y el futuro del campo</td>
+<td>~15 min</td>
+</tr>
+<tr class="even">
+<td>IV</td>
+<td>Su viaje: la maestría, las herramientas, quiénes van a ser</td>
+<td>~10 min</td>
+</tr>
+<tr class="odd">
+<td>—</td>
+<td>Cierre y preguntas</td>
+<td>~5 min</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>[~10 min] Dar el mapa — que la audiencia sepa en todo momento dónde están dentro de la hora.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p><br><br></p>
+<div style="text-align: center; font-size: 2em; font-weight: bold; letter-spacing: 0.05em;">
+<p>Parte I</p>
+</div>
+<div style="text-align: center; font-size: 1.1em; color: #90b8cc; margin-top: 0.5em;">
+<p>Por qué la ciencia de datos importa — y por qué ustedes</p>
+</div>
+</section>
+<section id="ustedes-ya-hacen-ciencia-de-datos" class="slide level2">
+<h2>Ustedes ya hacen ciencia de datos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Lo que hacen como profesionales de salud:</strong></p>
+<ul>
+<li>Reúnen información sobre un paciente</li>
+<li>Identifican patrones clínicos</li>
+<li>Formulan hipótesis (diagnóstico diferencial)</li>
+<li>Evalúan evidencia (labs, imágenes, historial)</li>
+<li>Toman una decisión y la ajustan con el tiempo</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Lo que hace un científico de datos:</strong></p>
+<ul>
+<li>Reúne datos de múltiples fuentes</li>
+<li>Identifica patrones en grandes conjuntos</li>
+<li>Formula hipótesis (modelos predictivos)</li>
+<li>Evalúa evidencia (estadística, validación)</li>
+<li>Toma decisiones y las refina iterativamente</li>
+</ul>
+</div></div>
+<div class="fragment">
+<blockquote>
+<p><strong>La diferencia no es el proceso — es la escala.</strong><br>
+Ustedes lo hacen para 1 paciente.<br>
+La ciencia de datos lo hace para 100,000.</p>
+</blockquote>
+<aside class="notes">
+<p>[~11-14 min] Este es el slide más importante para desactivar el miedo. “No están aprendiendo algo ajeno. Están ampliando lo que ya saben hacer.” Si hay médicos en la sala: “El diagnóstico diferencial es hipótesis estadística. Solo que nadie les dijo así.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="la-diferencia-es-la-escala" class="slide level2">
+<h2>La diferencia es la escala</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-escala.png" class="quarto-figure quarto-figure-center" style="max-height: 55vh;"></p>
+</figure>
+</div>
+<aside class="notes">
+<p>[~14-16 min] Si la imagen no está lista, describir con palabras: “Imaginen que pudieran ver los registros de todos los pacientes diabéticos del IGSS de los últimos 10 años al mismo tiempo.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="de-los-datos-a-las-decisiones" class="slide level2">
+<h2>De los datos a las decisiones</h2>
+
+<img data-src="img/flujo_de_datos.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~16-18 min] Analogía médica: “Así como un médico no diagnostica con una muestra sin procesar — la manda al laboratorio, la analiza, la interpreta — así funciona la ciencia de datos.” El flujo es siempre el mismo: recolección → limpieza → análisis → interpretación → decisión.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<p><br><br></p>
+<div style="text-align: center; font-size: 2em; font-weight: bold; letter-spacing: 0.05em;">
+<p>Parte II</p>
+</div>
+<div style="text-align: center; font-size: 1.1em; color: #90b8cc; margin-top: 0.5em;">
+<p>Los cuatro niveles: de la consulta a la bioinformática</p>
+</div>
+</section>
+<section id="un-campo-con-cuatro-pisos" class="slide level2">
+<h2>Un campo con cuatro pisos</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/piramide-niveles-datos-salud.png" class="quarto-figure quarto-figure-center" style="max-height: 55vh;"></p>
+</figure>
+</div>
+<aside class="notes">
+<p>[~18-20 min] Decir que van a recorrer los cuatro pisos en los próximos 15 minutos. “Cada nivel es más complejo, pero no más importante. La clínica de pueblo necesita nivel 1 tanto como el ministerio necesita nivel 2.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nivel-1-la-sala-de-consulta" class="slide level2">
+<h2>Nivel 1: La sala de consulta</h2>
+<p><strong>Ciencia de datos en la práctica clínica</strong></p>
+<ul>
+<li>Análisis de registros hospitalarios</li>
+<li>Identificación de patrones: tratamientos, medicamentos, reingresos</li>
+<li>Mejora en la gestión y atención</li>
+</ul>
+<div class="fragment">
+<p><strong>Volvamos a María:</strong><br>
+Un analista revisa 5 años de datos del centro de salud de Chimaltenango.<br>
+Descubre: el 38% de los pacientes diabéticos abandona el control antes del cuarto mes.<br>
+Patrón: viven a más de 40 minutos del centro. Todos en zona rural.</p>
+<p>→ La solución no es clínica: es de acceso. Los datos lo revelaron.</p>
+<aside class="notes">
+<p>[~20-23 min] Conectar siempre con la historia de María. Énfasis: “Esto no requiere inteligencia artificial. Requiere mirar los datos que ya existen.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="nivel-1-visualización" class="slide level2">
+<h2>Nivel 1: Visualización</h2>
+
+<img data-src="img/grafico_diabetes.png" class="quarto-figure quarto-figure-center r-stretch"><blockquote>
+<p>“A veces, una sola visualización revela el patrón que cambia la intervención.”</p>
+</blockquote>
+<aside class="notes">
+<p>[~23-24 min] Pasar relativamente rápido si la imagen habla por sí sola.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nivel-2-el-país-como-paciente" class="slide level2">
+<h2>Nivel 2: El país como paciente</h2>
+<p><strong>Salud pública y epidemiología digital</strong></p>
+<ul>
+<li>Datos poblacionales → decisiones de política</li>
+<li>Vigilancia epidemiológica, predicción de brotes</li>
+<li>Optimización de recursos a escala nacional</li>
+</ul>
+<div class="fragment">
+<p><strong>El caso del dengue en Guatemala:</strong><br>
+El brote de 2023 no llegó de sorpresa para los datos — la temperatura, las lluvias y los vectores habían dado señales semanas antes.<br>
+Un sistema de alerta temprana entrenado en esos datos podría haber activado fumigación preventiva con 3-4 semanas de anticipación.</p>
+</div>
+<div class="fragment">
+<p><strong>→ Menos casos. Menos muertes. Mismo presupuesto.</strong></p>
+<aside class="notes">
+<p>[~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica. Énfasis: “Esto no es ciencia ficción. Varios países de la región ya tienen sistemas así.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="nivel-2-vigilancia-epidemiológica" class="slide level2">
+<h2>Nivel 2: Vigilancia epidemiológica</h2>
+
+<img data-src="img/tablero_covid.png" class="quarto-figure quarto-figure-center r-stretch"><p><strong>Lo que un dashboard permite preguntar:</strong></p>
+<ul>
+<li>¿Dónde están los focos activos? · ¿Cuál es la tendencia semanal? · ¿Qué población está más expuesta?</li>
+</ul>
+<aside class="notes">
+<p>[~27-28 min] El tablero de COVID es el ejemplo más conocido. Conectar con dengue y con lo que Guatemala podría tener.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nivel-3-la-evidencia-que-cambia-protocolos" class="slide level2">
+<h2>Nivel 3: La evidencia que cambia protocolos</h2>
+<p><strong>Ciencia de datos en investigación clínica</strong></p>
+<ul>
+<li>Evaluación de tratamientos y pronósticos</li>
+<li>Análisis de supervivencia, modelos de riesgo</li>
+<li>Datos del mundo real (<em>real-world evidence</em>)</li>
+</ul>
+<div class="fragment">
+<p><strong>Ejemplo:</strong><br>
+¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?<br>
+Con datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.</p>
+<p><strong>→ Investigación con los datos que ya tenemos.</strong></p>
+<aside class="notes">
+<p>[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento — porque los ensayos clínicos son caros y lentos, pero los registros clínicos están llenos de datos reales.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="nivel-3-curvas-de-supervivencia" class="slide level2" data-background-color="#fff">
+<h2>Nivel 3: Curvas de supervivencia</h2>
+
+<img data-src="img/kaplan_meier.png" class="quarto-figure quarto-figure-center r-stretch"><p>“Los datos clínicos permiten evaluar si un tratamiento realmente cambia la historia natural de la enfermedad.”</p>
+<aside class="notes">
+<p>[~32-33 min] Explicar brevemente qué muestra la curva (probabilidad de sobrevivir en el tiempo, por grupo de tratamiento). No entrar en estadística — solo el concepto.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="nivel-4-cuando-los-genes-hablan" class="slide level2">
+<h2>Nivel 4: Cuando los genes hablan</h2>
+<p><strong>Bioinformática clínica</strong></p>
+<ul>
+<li>Análisis de datos genómicos y moleculares</li>
+<li>Identificación de mutaciones y biomarcadores</li>
+<li>Medicina de precisión: el tratamiento correcto, para el paciente correcto</li>
+</ul>
+<div class="fragment">
+<p><strong>En Guatemala:</strong><br>
+Nuestra población tiene una genética única — mezcla de herencias mayas, españolas y africanas.<br>
+Los modelos de riesgo entrenados en poblaciones europeas <strong>no siempre funcionan aquí</strong>.<br>
+Necesitamos datos genómicos propios. Necesitamos bioinformáticos que los analicen.</p>
+<aside class="notes">
+<p>[~33-36 min] El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="nivel-4-medicina-de-precisión" class="slide level2">
+<h2>Nivel 4: Medicina de precisión</h2>
+
+<img data-src="img/nsclc_egfr_mutations.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~36-37 min] Ejemplo EGFR: el mismo diagnóstico de “cáncer de pulmón” tiene tratamientos completamente distintos según la mutación. Sin datos genómicos, todos reciben el mismo tratamiento. Con datos, se personaliza.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="una-nota-que-no-podemos-saltarnos" class="slide level2">
+<h2>Una nota que no podemos saltarnos</h2>
+<p><br></p>
+<blockquote>
+<p><em>Los datos de salud son de las personas — no del sistema.</em></p>
+</blockquote>
+<p><br></p>
+<ul>
+<li><strong>Privacidad:</strong> Consentimiento informado, anonimización, acceso controlado</li>
+<li><strong>Equidad:</strong> Los modelos pueden reproducir sesgos existentes — o corregirlos</li>
+<li><strong>Interpretación:</strong> Un dato nunca habla solo; necesita contexto clínico</li>
+<li><strong>Responsabilidad:</strong> Quien analiza los datos comparte la responsabilidad del impacto</li>
+</ul>
+<p><br></p>
+<p><strong>La ciencia de datos sin ética es solo vigilancia.</strong></p>
+<aside class="notes">
+<p>[~37-39 min] No saltar este slide. Si hay tiempo: preguntar si alguien tiene un ejemplo de sesgo en datos de salud que haya observado en su práctica.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="recapitulación-los-cuatro-niveles" class="slide level2">
+<h2>Recapitulación: los cuatro niveles</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Nivel</th>
+<th>Aplicación</th>
+<th>Ejemplo Guatemala</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Clínica</td>
+<td>Abandono de control en pacientes diabéticos</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Salud pública</td>
+<td>Alerta temprana de dengue</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Investigación</td>
+<td>Comparar protocolos de preeclampsia</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Bioinformática</td>
+<td>Modelos de riesgo para nuestra población</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>[~39-40 min] Pausa de síntesis. Preguntar si hay preguntas antes de pasar a IA. Este es el fin de la segunda parte — de aquí en adelante hablamos del horizonte.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p><br><br></p>
+<div style="text-align: center; font-size: 2em; font-weight: bold; letter-spacing: 0.05em;">
+<p>Parte III</p>
+</div>
+<div style="text-align: center; font-size: 1.1em; color: #90b8cc; margin-top: 0.5em;">
+<p>Inteligencia artificial y el futuro del campo</p>
+</div>
+</section>
+<section id="existe-un-nivel-5" class="slide level2">
+<h2>¿Existe un Nivel 5?</h2>
+
+<img data-src="img/ai-en-salud.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~40-42 min] Transición dramática: “Recapitulamos los cuatro niveles. Pero el campo no se detiene ahí.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="el-mapa-de-la-inteligencia-artificial" class="slide level2">
+<h2>El mapa de la inteligencia artificial</h2>
+
+<img data-src="img/ai-diagram.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~42-44 min] IA → Machine Learning → Deep Learning. No entrar en detalle técnico — solo ubicar los conceptos anidados. “Deep learning es el motor detrás de casi todo lo que vamos a ver a continuación.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="qué-es-una-red-neuronal" class="slide level2 smaller">
+<h2>¿Qué es una red neuronal?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Piénsalo como un <strong>sistema de toma de decisiones</strong> inspirado en el cerebro:</p>
+<ul>
+<li><strong>Entradas</strong>: Datos crudos (ej., valores de píxeles de una radiografía)</li>
+<li><strong>Capas ocultas</strong>: Cada capa aprende a detectar patrones más complejos</li>
+<li><strong>Salida</strong>: Una predicción (“esta radiografía muestra signos de neumonía”)</li>
+</ul>
+<p>La red <strong>aprende por ejemplo</strong> — le mostramos miles de imágenes ya etiquetadas, y ella descubre qué patrones corresponden a cada diagnóstico.</p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/nn1.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+</div></div>
+<aside class="notes">
+<p>[~44-46 min] Analogía del médico residente: “Una red neuronal aprende como un residente. Al principio se equivoca. Con miles de casos, mejora. La diferencia es que puede revisar un millón de casos en una noche.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ia-leyendo-radiografías" class="slide level2">
+<h2>IA leyendo radiografías</h2>
+
+<img data-src="img/lung-xrays.webp" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~46-47 min] Modelos de visión ya validados en radiología. Énfasis: el modelo no reemplaza al radiólogo — le da una segunda opinión a las 3am, cuando el cansancio afecta la precisión.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ia-leyendo-radiografías-1" class="slide level2">
+<h2>IA leyendo radiografías</h2>
+
+<img data-src="img/chest-xrays.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~47-48 min] Mostrar la predicción del modelo. Transición natural hacia: “si una red puede aprender del lenguaje de las imágenes… ¿qué pasa cuando aprende el lenguaje de las palabras?”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="las-llms-predicen-la-siguiente-palabra" class="slide level2">
+<h2>Las LLMs predicen la siguiente palabra</h2>
+
+<img data-src="img/probabilidad-siguiente-palabra.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~48-49 min] La intuición fundamental de los LLMs: predecir la siguiente palabra en secuencia, entrenados en textos masivos.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tokenizar-el-lenguaje" class="slide level2">
+<h2>Tokenizar el lenguaje</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/tokens.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/embeddings.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<blockquote>
+<p>Los modelos no leen palabras — leen números.<br>
+Cada <em>token</em> se convierte en un vector matemático (<em>embedding</em>).<br>
+El “significado” queda codificado en ese vector.</p>
+</blockquote>
+<aside class="notes">
+<p>[~49-51 min] No profundizar en la matemática — solo transmitir la idea.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="las-palabras-similares-están-cerca" class="slide level2">
+<h2>Las palabras similares están cerca</h2>
+
+<img data-src="img/embeddings-space.png" class="quarto-figure quarto-figure-center r-stretch"><blockquote>
+<p><em>“Diabetes” y “glucosa” terminan cercanas en ese espacio.<br>
+El modelo aprende relaciones médicas sin que nadie se las enseñe explícitamente.</em></p>
+</blockquote>
+<aside class="notes">
+<p>[~51-52 min] Este concepto es el puente fundamental hacia APOLLO — guardar el pensamiento.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="los-chatbots-que-ya-conocen" class="slide level2">
+<h2>Los chatbots que ya conocen</h2>
+
+<img data-src="img/llm-brands.jpg" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>[~52-53 min] “ChatGPT, Gemini, Claude… todos funcionan con el mismo principio que acaban de ver.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="una-pregunta-que-cambió-el-campo" class="slide level2">
+<h2>Una pregunta que cambió el campo</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-transicion-apollo.png" class="quarto-figure quarto-figure-center" style="max-height: 45vh;"></p>
+</figure>
+</div>
+<p><br></p>
+<blockquote>
+<p><em>Si un modelo puede aprender el “lenguaje” de las palabras…</em><br>
+<em>¿puede aprender el “lenguaje” completo de un paciente?</em></p>
+</blockquote>
+<aside class="notes">
+<p>[~53-54 min] Pausa dramática. “No el historial escrito en notas — sino toda su información: labs, imágenes, signos vitales, medicamentos, diagnósticos… todo al mismo tiempo, a lo largo del tiempo.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="apollo-representación-virtual-de-un-paciente" class="slide level2">
+<h2>APOLLO — Representación virtual de un paciente</h2>
+
+<img data-src="img/apollo-fuente-de-datos.png" class="quarto-figure quarto-figure-center r-stretch"><p><strong>La idea central:</strong> usar la misma arquitectura de los LLMs — pero en vez de aprender el lenguaje humano, aprender el “lenguaje” completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.</p>
+<aside class="notes">
+<p>[~54-55 min] APOLLO es un paper de 2026 — investigación de frontera. Poner en contexto: “No es un producto disponible. Es el horizonte hacia donde va el campo.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="apollo-el-embedding-de-un-paciente" class="slide level2">
+<h2>APOLLO — El embedding de un paciente</h2>
+
+<img data-src="img/apollo-embeddings.png" class="quarto-figure quarto-figure-center r-stretch"><blockquote>
+<p>Así como “diabetes” tiene un punto en el espacio de los embeddings…<br>
+<strong>un paciente completo</strong> puede tener un punto en un espacio médico de alta dimensión.</p>
+</blockquote>
+<aside class="notes">
+<p>[~55 min] La conexión con embeddings que explicamos antes. Un “patient embedding” es la representación matemática de todo su historial.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="apollo-encontrar-pacientes-similares" class="slide level2">
+<h2>APOLLO — Encontrar pacientes similares</h2>
+
+<img data-src="img/apollo-search.png" class="quarto-figure quarto-figure-center r-stretch"><p><strong>¿Para qué sirve en la práctica?</strong></p>
+<ul>
+<li>Buscar en millones de historias clínicas el caso más parecido al tuyo</li>
+<li>Anticipar evoluciones basándose en casos similares pasados</li>
+<li>Apoyar decisiones con evidencia real de la propia institución</li>
+</ul>
+<aside class="notes">
+<p>[~55-56 min] Preguntar: “¿Cuántas veces quisieron saber cómo evolucionó un caso parecido en otro hospital?”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="apollo-el-espacio-de-los-pacientes" class="slide level2">
+<h2>APOLLO — El espacio de los pacientes</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/apollo-space.png" class="quarto-figure quarto-figure-center" style="max-height: 50vh;"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Zhang A, Ding T, Wagner SJ, et al.&nbsp;A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.</p>
+</div></aside></section>
+<section id="apollo-predicciones-clínicas" class="slide level2">
+<h2>APOLLO — Predicciones clínicas</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/apollo-diagnosis-medication.png" class="quarto-figure quarto-figure-center" style="max-height: 50vh;"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Zhang A, Ding T, Wagner SJ, et al.&nbsp;A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.</p>
+</div></aside></section>
+<section id="apollo-notas-clínicas-integradas" class="slide level2">
+<h2>APOLLO — Notas clínicas integradas</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/apollo-clinical-notes.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>[~56-57 min] APOLLO puede integrar notas en lenguaje natural con datos estructurados. Relevante para sistemas donde la documentación es incompleta o mixta.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p>Zhang A, Ding T, Wagner SJ, et al.&nbsp;A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026.</p>
+</div></aside></section>
+<section id="qué-significa-todo-esto-para-guatemala" class="slide level2">
+<h2>¿Qué significa todo esto para Guatemala?</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Lo que la IA puede hacer:</strong></p>
+<ul>
+<li>Leer imágenes médicas con alta precisión</li>
+<li>Procesar texto clínico en español</li>
+<li>Encontrar patrones en millones de registros</li>
+<li>Anticipar riesgos individuales y poblacionales</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Lo que la IA NO puede hacer sola:</strong></p>
+<ul>
+<li>Saber qué pregunta clínica vale la pena hacer</li>
+<li>Interpretar resultados con criterio médico y cultural</li>
+<li>Adaptar un modelo entrenado en EEUU a nuestra población</li>
+<li>Tomar decisiones éticas sobre uso de datos</li>
+</ul>
+</div></div>
+<p><br></p>
+<blockquote>
+<p><strong>Eso lo hacen ustedes.</strong></p>
+</blockquote>
+<aside class="notes">
+<p>[~57-58 min] Este es el argumento central de toda la presentación: la IA necesita profesionales de salud con criterio de datos.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div style="text-align: center; font-size: 2em; font-weight: bold; letter-spacing: 0.05em;">
+<p>Parte IV</p>
+</div>
+<div style="text-align: center; font-size: 1.1em; color: #90b8cc; margin-top: 0.5em;">
+<p>Su viaje: la maestría y quiénes van a ser</p>
+</div>
+</section>
+<section id="lo-que-van-a-aprender" class="slide level2 smaller">
+<h2>Lo que van a aprender</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Fundamentos</strong></p>
+<ul>
+<li>Estadística aplicada a salud</li>
+<li>Bases de datos clínicos</li>
+<li>Epidemiología cuantitativa</li>
+<li>Ética y gobernanza de datos</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<p><strong>Herramientas</strong></p>
+<ul>
+<li>R y Python para análisis de datos</li>
+<li>SQL para bases de datos clínicas</li>
+<li>Visualización (ggplot2, Shiny)</li>
+<li>Machine learning aplicado a salud</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<p><strong>Aplicaciones</strong></p>
+<ul>
+<li>Vigilancia epidemiológica digital</li>
+<li>Modelos de predicción clínica</li>
+<li>Análisis de supervivencia</li>
+<li>Introducción a bioinformática</li>
+</ul>
+</div></div>
+<p><br></p>
+<blockquote>
+<p><em>No necesitan saber programar hoy.<br>
+Necesitan estar dispuestos a aprender.</em></p>
+</blockquote>
+<aside class="notes">
+<p>[~58-62 min] Dar panorama del currículo sin entrar en detalles administrativos. “La curva de aprendizaje es real, pero la pendiente no es vertical. Empezamos desde cero juntos.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quiénes-van-a-ser" class="slide level2">
+<h2>Quiénes van a ser</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-career-paths.png" class="quarto-figure quarto-figure-center" style="max-height: 50vh;"></p>
+</figure>
+</div>
+<aside class="notes">
+<p>[~62-65 min] Recorrer los 6 caminos: analítica hospitalaria, salud pública/OPS/OMS, investigación, política de salud, health tech, bioinformática. “El campo es nuevo y amplio — hay espacio para todos.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="el-perfil-único-que-tienen" class="slide level2">
+<h2>El perfil único que tienen</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-bridge.png" class="quarto-figure quarto-figure-center" style="max-height: 45vh;"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<p>Un programador puro no sabe qué pregunta clínica importa.</p>
+<p>Un clínico puro no puede analizar 100,000 registros.</p>
+<p><br></p>
+<p><strong>Ustedes son el puente.</strong></p>
+<p>Entienden al paciente <strong>y</strong> aprenderán a hablarle a los datos.</p>
+<p>Esa combinación es la más escasa y la más valiosa del campo.</p>
+</div></div>
+<aside class="notes">
+<p>[~65-67 min] Slide de identidad profesional. Que salgan sabiendo exactamente quiénes son y por qué importan.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="una-comunidad-que-empieza-hoy" class="slide level2">
+<h2>Una comunidad que empieza hoy</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/leccion-comunidad.png" class="quarto-figure quarto-figure-center" style="max-height: 45vh;"></p>
+</figure>
+</div>
+<blockquote>
+<p>Los errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.<br>
+No están solos en esto.</p>
+</blockquote>
+<aside class="notes">
+<p>[~67-68 min] Sentido de comunidad y legado. Cerrar esta sección con calidez.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="lo-que-les-pido-para-este-camino" class="slide level2">
+<h2>Lo que les pido para este camino</h2>
+<p><br></p>
+<div class="fragment">
+<p><strong>Traigan su curiosidad clínica</strong> — es su ventaja, no su limitación.</p>
+</div>
+<div class="fragment">
+<p><strong>No teman al código ni a la estadística</strong> — son herramientas. Se aprenden con práctica, con paciencia y con buenos profesores.</p>
+</div>
+<div class="fragment">
+<p><strong>Pregúntense siempre:</strong> <em>¿este análisis ayuda de verdad al paciente? ¿Al sistema? ¿A las comunidades más vulnerables?</em></p>
+</div>
+<div class="fragment">
+<p><strong>Tengan paciencia con el proceso</strong> — un semestre los va a desafiar. Dos semestres los van a transformar.</p>
+<aside class="notes">
+<p>[~68-70 min] Cierre motivacional. Hablar despacio, con peso en cada punto.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="conclusiones" class="slide level2">
+<h2>Conclusiones</h2>
+<p><br></p>
+<ul>
+<li><p>Los datos de salud existen en Guatemala — lo que falta es gente formada para usarlos.</p></li>
+<li><p>La ciencia de datos en salud no reemplaza al profesional clínico: lo amplifica.</p></li>
+<li><p>Los cuatro niveles van de lo cotidiano a la bioinformática — todos necesarios, todos complementarios.</p></li>
+<li><p>La IA (modelos de visión, LLMs, representaciones de paciente como APOLLO) ya es parte del horizonte real del campo.</p></li>
+<li><p><strong>Esta maestría existe para que Guatemala no espere a que el futuro llegue de afuera.</strong></p></li>
+</ul>
+<aside class="notes">
+<p>[~70 min] Resumen rápido. La última frase es el cierre emocional — dar peso a cada palabra.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+<p><br><br></p>
+<blockquote>
+<p><em>“En cinco años, cuando alguien pregunte quién empezó la ciencia de datos en salud en Guatemala, la respuesta van a ser ustedes.”</em></p>
+</blockquote>
+<p><br></p>
+<p><strong>¡Bienvenidos, primera generación!</strong></p>
+<p><br></p>
+<div style="font-size: 0.85em; color: #a0b8c8;">
+<p>📧 oliver.mazariegos98@gmail.com · 💬 <a href="https://www.linkedin.com/in/oliver-mazariegos">linkedin.com/in/oliver-mazariegos</a></p>
+</div>
+<aside class="notes">
+<p>[~70 min] Dar espacio para aplausos. Invitar preguntas. Si hay autoridades de USAC o la gerencia del programa presentes, cederles la palabra.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Maestría en Ciencia de Datos en Salud — USAC · Primera Generación 2026</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

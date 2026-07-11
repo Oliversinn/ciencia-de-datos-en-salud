@@ -341,5 +341,943 @@
     "title": "Aplicaciones de la Ciencia de Datos en Salud",
     "section": "¡Gracias!",
     "text": "¡Gracias!\nContacto:\n📧 oliver@mazariegos.gt\n💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos\n\n“El futuro de la salud se construye con datos, ética y colaboración.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#bienvenida",
+    "href": "leccion-inaugural-maestria.html#bienvenida",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Bienvenida",
+    "text": "Bienvenida\nBienvenidos a un momento histórico.\n\nHoy nace la primera Maestría en Ciencia de Datos en Salud de Guatemala.\nUstedes no son solo estudiantes de un nuevo programa: son la primera generación.\nLo que aprendan aquí no existía como carrera formal en este país hace un año.\n\n\nAbrir con calidez y solemnidad, sin ser acartonado. Reconocer a autoridades de USAC, gerencia de la maestría, y a los estudiantes. Frase sugerida: “Lo que hoy inicia no es solamente un posgrado más: es la respuesta de Guatemala a una pregunta que el mundo entero se está haciendo — ¿cómo formamos profesionales capaces de traducir datos en salud, en salud real, para la gente?” Dar tiempo para aplausos si es apropiado."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#un-momento-histórico-para-guatemala",
+    "href": "leccion-inaugural-maestria.html#un-momento-histórico-para-guatemala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Un momento histórico para Guatemala",
+    "text": "Un momento histórico para Guatemala\n\nPLACEHOLDER: img/bienvenida-guatemala-datos-salud.png\nEsta imagen abre emocionalmente la charla — transmite orgullo, novedad y pertenencia.\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido para generar esta imagen (Nano Banana / Gemini): “A modern, elegant editorial illustration celebrating the launch of Guatemala’s first Master’s program in Health Data Science. Blend subtle motifs of healthcare (a stethoscope forming a heartbeat line) with data science (a soft network of glowing nodes and a rising bar chart) in one cohesive composition. Warm, hopeful color palette using sky blue and white tones reminiscent of Guatemala without using the flag literally. Clean, minimal, high-end conference-keynote style, no text, no real people, no logos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#quiénes-están-en-esta-sala",
+    "href": "leccion-inaugural-maestria.html#quiénes-están-en-esta-sala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Quiénes están en esta sala?",
+    "text": "¿Quiénes están en esta sala?\n\nLa mayoría de ustedes son profesionales de la salud: médicos, enfermeras, epidemiólogos, farmacéuticos, nutricionistas.\nNo necesitan ser programadores para estar aquí — necesitan curiosidad y visión clínica.\nEsta maestría existe precisamente para ustedes: para traducir su experiencia clínica en preguntas que los datos puedan responder.\n\n\nEs clave desactivar el miedo al “no soy de tecnología”. Enfatizar que el valor que traen es su conocimiento clínico, no su experiencia con código. Ejemplo: “El mejor científico de datos en salud no es el que mejor programa, es el que mejor sabe qué pregunta clínica vale la pena hacerle a los datos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#lo-que-vamos-a-recorrer-hoy",
+    "href": "leccion-inaugural-maestria.html#lo-que-vamos-a-recorrer-hoy",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que vamos a recorrer hoy",
+    "text": "Lo que vamos a recorrer hoy\n\n\n\n\n\n\n\n\n\nSección\nTema\nTiempo\n\n\n\n\nI\nPor qué la ciencia de datos importa en salud\n~10 min\n\n\nII\nLos cuatro niveles: de lo cotidiano a la frontera\n~20 min\n\n\nIII\nInteligencia artificial y el futuro del campo\n~15 min\n\n\nIV\nSu viaje: la maestría, las herramientas, quiénes van a ser\n~10 min\n\n\n—\nCierre y preguntas\n~5 min\n\n\n\n\n[~10 min] Dar el mapa claro — que la audiencia sepa en todo momento dónde están dentro de la hora."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#por-qué-hablar-de-ciencia-de-datos-en-salud",
+    "href": "leccion-inaugural-maestria.html#por-qué-hablar-de-ciencia-de-datos-en-salud",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Por qué hablar de Ciencia de Datos en Salud?",
+    "text": "¿Por qué hablar de Ciencia de Datos en Salud?\n\nGeneramos más datos que nunca: historias clínicas, laboratorios, imágenes, genómica.\nPero los datos por sí solos no significan nada sin análisis.\nLa ciencia de datos convierte los datos en decisiones clínicas, políticas y científicas.\n\n\nContextualizar el crecimiento de los datos en salud. Ejemplo: “Hoy, cada hospital genera más datos que toda la OMS hace 30 años.” Enfatiza que el valor está en el análisis, no en la cantidad."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#de-los-datos-a-la-salud",
+    "href": "leccion-inaugural-maestria.html#de-los-datos-a-la-salud",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "De los datos a la salud",
+    "text": "De los datos a la salud\n\nDe los datos a las decisiones\n\nRecolección (hospital, laboratorio, sensores)\nLimpieza y organización\nAnálisis\nInterpretación clínica\n\n\nUsar la analogía médica: “Así como un médico limpia y analiza una muestra antes del diagnóstico, un analista limpia y analiza los datos antes de sacar conclusiones.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#cuatro-niveles-una-misma-disciplina",
+    "href": "leccion-inaugural-maestria.html#cuatro-niveles-una-misma-disciplina",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Cuatro niveles, una misma disciplina",
+    "text": "Cuatro niveles, una misma disciplina\n\nPLACEHOLDER: img/piramide-niveles-datos-salud.png\nPresentar la pirámide como preview de lo que viene. No profundizar todavía, solo dar el mapa visual.\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido: “A clean, minimal infographic pyramid diagram with 4 ascending levels, each labeled conceptually with a simple icon (no readable text needed, icons only): Level 1 a hospital/clinical chart icon, Level 2 a population/map icon, Level 3 a magnifying glass over a curve/graph icon, Level 4 a DNA helix icon. Flat design, soft blues and teals, plenty of white space, professional academic keynote style, no text labels, no people, no logos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
+    "href": "leccion-inaugural-maestria.html#nivel-1-ciencia-de-datos-en-la-práctica-clínica",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 1: Ciencia de datos en la práctica clínica",
+    "text": "Nivel 1: Ciencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios (Excel, R, Python)\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión hospitalaria\n\nEjemplo:\nUn hospital analiza datos de pacientes con diabetes →\ndetecta que el 30% abandona el tratamiento después del tercer mes.\n\nResalta que esto es ciencia de datos aplicada, aunque se use Excel o R básico. Muestra cómo se puede pasar de datos sueltos a decisiones concretas."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-1",
+    "href": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ejemplo visual: Nivel 1",
+    "text": "Ejemplo visual: Nivel 1\n\n\n“A veces, una simple visualización puede revelar un patrón que salva recursos o mejora la atención.”\n\n\nGráfico de líneas o barras con la evolución mensual de pacientes diabéticos controlados vs. no controlados."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-2-salud-pública-y-epidemiología-digital",
+    "href": "leccion-inaugural-maestria.html#nivel-2-salud-pública-y-epidemiología-digital",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 2: Salud pública y epidemiología digital",
+    "text": "Nivel 2: Salud pública y epidemiología digital\n\nDatos a gran escala → decisiones poblacionales\nDashboards, vigilancia epidemiológica, predicción de brotes\nEjemplo: COVID-19, dengue, influenza\n\nHerramientas: R, Shiny, Power BI, Tableau\n\nMenciona cómo los dashboards ayudaron durante la pandemia. Enfatiza que la ciencia de datos permite anticipar brotes y optimizar recursos."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-2",
+    "href": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-2",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ejemplo visual: Nivel 2",
+    "text": "Ejemplo visual: Nivel 2\n\nPreguntas que se pueden responder:\n\n¿Dónde están los focos más activos?\n¿Hay relación geográfica existente?\n¿Cómo cambia semana a semana?\n\n\nMuestra cómo un mapa o una serie temporal ayuda a dirigir campañas de prevención."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
+    "href": "leccion-inaugural-maestria.html#nivel-3-ciencia-de-datos-en-investigación-clínica",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: Ciencia de datos en investigación clínica",
+    "text": "Nivel 3: Ciencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nCurvas de supervivencia (Kaplan-Meier)\nModelos de riesgo y predicción\n\nEjemplo:\nPredicción de riesgo de infarto usando presión, colesterol, edad y hábitos.\n\nDestaca que aquí ya se aplican modelos estadísticos o de machine learning. Explica que el objetivo es apoyar, no reemplazar al médico."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-3",
+    "href": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-3",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ejemplo visual: Nivel 3",
+    "text": "Ejemplo visual: Nivel 3\n\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente mejora la supervivencia.”\n\n\nExplica qué significa cada curva y cómo ayuda a comparar tratamientos."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-4-bioinformática-clínica",
+    "href": "leccion-inaugural-maestria.html#nivel-4-bioinformática-clínica",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 4: Bioinformática clínica",
+    "text": "Nivel 4: Bioinformática clínica\n\n“El nivel más avanzado de ciencia de datos en salud.”\n\n\nAnálisis de datos genómicos y moleculares.\nIdentificación de mutaciones, biomarcadores y tratamientos personalizados.\nAplicaciones en virología, enfermedades raras y oncología.\n\n\nExplica brevemente qué es la bioinformática: aplicar algoritmos y modelos sobre datos biológicos."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-4-medicina-de-precisión",
+    "href": "leccion-inaugural-maestria.html#ejemplo-visual-nivel-4-medicina-de-precisión",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ejemplo visual: Nivel 4 — Medicina de precisión",
+    "text": "Ejemplo visual: Nivel 4 — Medicina de precisión\n\n\nDetección de mutaciones que guían el tratamiento.\nEjemplo: mutación EGFR en cáncer de pulmón → tratamiento dirigido.\nDel diagnóstico genético a la terapia personalizada.\n\n\nResalta el concepto de “medicina de precisión”: tratamiento según el perfil genético del paciente."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ética-y-privacidad-de-los-datos",
+    "href": "leccion-inaugural-maestria.html#ética-y-privacidad-de-los-datos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ética y privacidad de los datos",
+    "text": "Ética y privacidad de los datos\n\nLos datos de salud son sensibles.\nCumplimiento de normas: consentimiento, anonimización, gobernanza de datos.\nCiencia de datos responsable = confianza pública.\n\n\nEnfatiza la importancia ética y legal del uso de datos. Menciona ejemplos de buenas prácticas (codificación de pacientes, acceso controlado)."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#recapitulación",
+    "href": "leccion-inaugural-maestria.html#recapitulación",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Recapitulación",
+    "text": "Recapitulación\n\n\n\nNivel\nAplicación\nEjemplo\n\n\n\n\n1\nClínica\nAnálisis de pacientes con diabetes\n\n\n2\nSalud pública\nVigilancia de COVID-19\n\n\n3\nInvestigación\nModelos de riesgo de infarto\n\n\n4\nBioinformática\nMedicina personalizada en cáncer\n\n\n\n\nRepasa brevemente cada nivel como una progresión natural. Este es el cierre de la primera mitad de la charla — de aquí en adelante hablamos del futuro."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-5-hacia-dónde-vamos",
+    "href": "leccion-inaugural-maestria.html#nivel-5-hacia-dónde-vamos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Nivel 5? ¿Hacia dónde vamos?",
+    "text": "¿Nivel 5? ¿Hacia dónde vamos?\n\n\nTransición hacia la sección de inteligencia artificial. Plantear la pregunta abiertamente: “¿Qué viene después de la bioinformática?”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#inteligencia-artificial",
+    "href": "leccion-inaugural-maestria.html#inteligencia-artificial",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Inteligencia Artificial",
+    "text": "Inteligencia Artificial\n\n\nUbicar IA, machine learning y deep learning como conceptos anidados, sin entrar aún en detalle técnico."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#qué-es-una-red-neuronal",
+    "href": "leccion-inaugural-maestria.html#qué-es-una-red-neuronal",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Qué es una red neuronal?",
+    "text": "¿Qué es una red neuronal?\n\n\nPiénsalo como un sistema de toma de decisiones inspirado en el cerebro:\n\nEntradas: Datos crudos (ej., valores de píxeles de una radiografía)\nCapas ocultas: Cada capa aprende a detectar patrones más complejos\nSalida: Una predicción (“esta radiografía muestra signos de neumonía”)\n\nLa red aprende por ejemplo — le mostramos miles de imágenes ya etiquetadas, y ella descubre qué patrones corresponden a cada diagnóstico.\n\n\n\n\n\n\n\n\n[~44-46 min] Usar la analogía del médico residente: “Una red neuronal aprende como un residente. Al principio se equivoca. Con miles de casos, mejora. La diferencia es que puede revisar un millón de casos en una noche.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#predicciones-en-radiología",
+    "href": "leccion-inaugural-maestria.html#predicciones-en-radiología",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Predicciones en radiología",
+    "text": "Predicciones en radiología\n\n\nEjemplo tangible y cercano para profesionales de salud: modelos de visión ya usados en radiología."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#predicciones-en-radiología-1",
+    "href": "leccion-inaugural-maestria.html#predicciones-en-radiología-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Predicciones en radiología",
+    "text": "Predicciones en radiología"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#las-llms-predicen-la-siguiente-palabra",
+    "href": "leccion-inaugural-maestria.html#las-llms-predicen-la-siguiente-palabra",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Las LLMs predicen la siguiente palabra",
+    "text": "Las LLMs predicen la siguiente palabra\n\n\n[~48-49 min] La intuición fundamental de los LLMs: predecir la siguiente palabra en secuencia, entrenados en textos masivos. “ChatGPT no ‘entiende’ — predice con muchísima precisión. Pero la diferencia práctica es difícil de ver.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#dividir-el-lenguaje-en-tokens",
+    "href": "leccion-inaugural-maestria.html#dividir-el-lenguaje-en-tokens",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Dividir el lenguaje en tokens",
+    "text": "Dividir el lenguaje en tokens"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#convertir-los-tokens-a-algo-que-comprendan-las-computadoras-embeddings",
+    "href": "leccion-inaugural-maestria.html#convertir-los-tokens-a-algo-que-comprendan-las-computadoras-embeddings",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Convertir los tokens a algo que comprendan las computadoras (embeddings)",
+    "text": "Convertir los tokens a algo que comprendan las computadoras (embeddings)"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#las-palabras-similares-están-cerca-entre-ellas",
+    "href": "leccion-inaugural-maestria.html#las-palabras-similares-están-cerca-entre-ellas",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Las palabras similares están cerca entre ellas",
+    "text": "Las palabras similares están cerca entre ellas\n\n\nEste concepto de “espacio de embeddings” es clave para entender más adelante cómo APOLLO representa pacientes, no solo palabras."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#la-magia-detrás-de-las-llm-es-deep-neural-networks",
+    "href": "leccion-inaugural-maestria.html#la-magia-detrás-de-las-llm-es-deep-neural-networks",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La magia detrás de las LLM es Deep Neural Networks",
+    "text": "La magia detrás de las LLM es Deep Neural Networks"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#el-secreto-detrás-de-los-chatbots-que-usamos",
+    "href": "leccion-inaugural-maestria.html#el-secreto-detrás-de-los-chatbots-que-usamos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El secreto detrás de los chatbots que usamos",
+    "text": "El secreto detrás de los chatbots que usamos\n\n\nCerrar la sección de LLMs generales conectando con herramientas que la audiencia ya conoce (ChatGPT, Gemini, Claude, etc.)."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#de-los-chatbots-a-representar-a-un-paciente",
+    "href": "leccion-inaugural-maestria.html#de-los-chatbots-a-representar-a-un-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "De los chatbots… a representar a un paciente",
+    "text": "De los chatbots… a representar a un paciente\n\nPLACEHOLDER: img/transicion-chatbots-medicina.pngLa pregunta que están haciendo los investigadores hoy:\nSi un modelo puede aprender el “lenguaje” de las palabras… ¿puede aprender el “lenguaje” de un paciente completo?\n\nSlide de transición emocional/conceptual antes de introducir APOLLO. Dar una pausa dramática aquí — es el corazón de la sección de futuro.\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido: “A minimal, elegant conceptual illustration showing a chat bubble icon on the left smoothly morphing/transforming into a stylized patient medical file or human silhouette made of data points on the right, connected by a subtle flowing gradient line. Soft teal and blue palette, flat vector style, lots of white space, no text, no real people, no logos, professional keynote aesthetic.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\nLa idea central: usar la misma arquitectura de los LLMs — pero en vez de aprender el lenguaje humano, aprender el “lenguaje” completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto, a lo largo del tiempo.\n\n\n[~54-55 min] APOLLO es un paper de 2026 — muy reciente. Poner en contexto: “Esto es investigación de frontera, no un producto disponible. Pero nos muestra a dónde va el campo.”\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-1",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-2",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-2",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\n¿Para qué sirve esto en la práctica?\n\nEncontrar pacientes “similares” en millones de historias clínicas en segundos.\nAnticipar qué tratamientos funcionaron en casos parecidos.\nApoyar decisiones clínicas con evidencia de la propia institución.\n\n\n\nSer explícito con casos de uso concretos, ya que esta es la parte donde la audiencia debe entender el “para qué”, no solo el “cómo”.\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-3",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-3",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-4",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-4",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-5",
+    "href": "leccion-inaugural-maestria.html#apollo-representación-virtual-de-un-paciente-5",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\n\n\nCerrar esta sub-sección notando que esto todavía es investigación de frontera (2026) — no es ciencia ficción, pero tampoco es una herramienta lista para usarse mañana en un hospital guatemalteco. Es el horizonte hacia donde va el campo.\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#qué-significa-esto-para-ustedes",
+    "href": "leccion-inaugural-maestria.html#qué-significa-esto-para-ustedes",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Qué significa esto para ustedes?",
+    "text": "¿Qué significa esto para ustedes?\n\nEstos modelos no reemplazan al profesional de salud — necesitan profesionales que sepan qué preguntarles y cómo interpretarlos.\nGuatemala no tiene que esperar a que esta tecnología llegue “de afuera” — puede formar gente que la entienda, la adapte y la use con criterio clínico.\nEse es exactamente el vacío que esta maestría busca llenar.\n\n\nEste es el puente explícito entre “el futuro de la IA en salud” y “por qué esta maestría importa”. Hablar con convicción — esta es la tesis central de la charla."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#la-maestría-en-ciencia-de-datos-en-salud-usac",
+    "href": "leccion-inaugural-maestria.html#la-maestría-en-ciencia-de-datos-en-salud-usac",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La Maestría en Ciencia de Datos en Salud — USAC",
+    "text": "La Maestría en Ciencia de Datos en Salud — USAC\n🎓 El primer programa de su tipo en Guatemala\n\nNace de la necesidad de traducir datos en decisiones, en un país donde la salud lo necesita con urgencia.\nIntegra informática, estadística, epidemiología y medicina en un mismo espacio.\nPrepara profesionales para los desafíos de la salud digital, hoy y en los años que vienen.\n\n\nNo profundizar en detalles curriculares específicos (duración, módulos, requisitos) — esos se comunican en otro momento por la gerencia del programa. Aquí el foco es el “por qué” y el “para qué”."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#por-qué-esta-maestría-por-qué-ahora",
+    "href": "leccion-inaugural-maestria.html#por-qué-esta-maestría-por-qué-ahora",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Por qué esta maestría, por qué ahora",
+    "text": "Por qué esta maestría, por qué ahora\n\nPLACEHOLDER: img/primera-generacion-guatemala.png\nGuatemala genera datos de salud todos los días — en cada hospital, cada clínica, cada campaña de vacunación.\nCasi nadie está formado específicamente para convertir esos datos en decisiones.\nUstedes están a punto de llenar ese vacío.\n\n\nMomento de mayor carga emocional de la charla. Hablar directamente a los estudiantes, no a un público abstracto. Frase sugerida: “En cinco años, cuando alguien pregunte quién empezó esto en Guatemala, la respuesta van a ser ustedes.”\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido: “An uplifting, editorial-style flat illustration of a diverse group of health and data professionals (doctors, nurses, and analysts, shown as simple diverse silhouettes without identifiable faces) standing together looking forward toward a horizon made of subtle rising data charts and a sunrise. Warm, hopeful color palette with soft blue and gold tones. No text, no flags, no logos, no real people, clean modern keynote illustration style.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#el-perfil-del-profesional-que-estamos-formando",
+    "href": "leccion-inaugural-maestria.html#el-perfil-del-profesional-que-estamos-formando",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El perfil del profesional que estamos formando",
+    "text": "El perfil del profesional que estamos formando\n\nPLACEHOLDER: img/perfil-profesional-maestria.png\nNo es un programador que aprendió medicina, ni un médico que aprendió a programar.\nEs un puente: alguien que entiende el dato y entiende al paciente.\nAlguien capaz de hacerle a los datos la pregunta clínica correcta.\n\n\nReforzar identidad profesional nueva y valiosa, sin jerarquizar “técnicos” sobre “clínicos” ni viceversa.\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido: “A minimal, symbolic flat illustration of two abstract human silhouettes meeting in the middle of a bridge: one side subtly associated with healthcare (a soft caduceus or heartbeat line motif), the other side with data (soft bar charts and network nodes), meeting and shaking hands at the center of the bridge. Clean vector style, soft blue and teal tones, no text, no real people, no logos, professional academic keynote aesthetic.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#una-comunidad-no-solo-una-maestría",
+    "href": "leccion-inaugural-maestria.html#una-comunidad-no-solo-una-maestría",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una comunidad, no solo una maestría",
+    "text": "Una comunidad, no solo una maestría\n\nPLACEHOLDER: img/comunidad-red-colaboracion.png\nVan a construir esto junto a sus compañeros de cohorte, sus profesores, y una red que apenas empieza.\nLos errores y aprendizajes de esta primera generación van a definir el camino para las que vienen.\nNo están solos en esto — y ese es, quizás, el dato más importante de todos.\n\n\nCerrar con sentido de comunidad y pertenencia, no solo de logro individual.\n\n\n\n\n\n\n\nNote\n\n\nPrompt sugerido: “A warm, minimal network illustration showing multiple simple silhouette figures (representing diverse health and data professionals) connected by soft glowing lines across a stylized map-like background suggesting a country’s regions without using a literal flag or borders. Collaborative, community feeling, soft blue and warm gold color palette, flat vector illustration, no text, no real people, no logos, professional keynote style.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#lo-que-les-pido-para-este-camino",
+    "href": "leccion-inaugural-maestria.html#lo-que-les-pido-para-este-camino",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que les pido para este camino",
+    "text": "Lo que les pido para este camino\n\n\nTraigan su curiosidad clínica — es su ventaja, no su limitación.\n\n\nNo teman al código ni a la estadística — son herramientas. Se aprenden con práctica, con paciencia y con buenos profesores.\n\n\nPregúntense siempre: ¿este análisis ayuda de verdad al paciente? ¿Al sistema? ¿A las comunidades más vulnerables?\n\n\nTengan paciencia con el proceso — un semestre los va a desafiar. Dos semestres los van a transformar.\n\n[~68-70 min] Cierre motivacional. Hablar despacio, con peso en cada punto."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#conclusiones",
+    "href": "leccion-inaugural-maestria.html#conclusiones",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\nLos datos de salud existen en Guatemala — lo que falta es la gente formada para usarlos.\nLa ciencia de datos en salud no reemplaza al profesional clínico: lo amplifica.\nLos cuatro niveles van de lo cotidiano a la bioinformática — todos necesarios, todos complementarios.\nLa IA (modelos de visión, LLMs, representaciones de paciente como APOLLO) ya es parte del horizonte real del campo.\nEsta maestría existe para que Guatemala no espere a que el futuro llegue de afuera.\n\n\n[~70 min] Resumen rápido. No extenderse — la última frase es el cierre emocional."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#bienvenidos-primera-generación",
+    "href": "leccion-inaugural-maestria.html#bienvenidos-primera-generación",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¡Bienvenidos, primera generación!",
+    "text": "¡Bienvenidos, primera generación!\nContacto:\n📧 oliver.mazariegos98@gmail.com\n💬 LinkedIn: https://www.linkedin.com/in/oliver-mazariegos\n\n“El futuro de la salud se construye con datos, ética y colaboración — y hoy, aquí en Guatemala, empieza con ustedes.”\n\n\nCierre solemne y cálido. Espacio para aplausos, fotos, o palabras de la gerencia del programa si corresponde a continuación."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section",
+    "href": "leccion-inaugural-maestria.html#section",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Bienvenidos a un momento histórico.\nEsta no es la apertura de un posgrado más.\nEs el inicio de algo que no existía en Guatemala hace un año.\n\n\n\n\n\n\n\n\n\n[~0-3 min] Abrir con calma y presencia. Reconocer a autoridades de USAC, a la gerencia del programa, y a los estudiantes. Pausa antes de hablar — que el silencio genere expectativa. Frase sugerida: “Hoy es el primer día de algo nuevo en Guatemala.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#una-pregunta-para-arrancar",
+    "href": "leccion-inaugural-maestria.html#una-pregunta-para-arrancar",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una pregunta para arrancar",
+    "text": "Una pregunta para arrancar\n\n\n¿Cuántos de ustedes alguna vez tomaron una decisión clínica, de política pública, o de gestión… y desearon tener más datos?\n\n\n\n\n¿Y cuántos tenían los datos pero no sabían qué hacer con ellos?\n\n\n\n\nEsa brecha es exactamente la que esta maestría existe para cerrar.\n\n[~3-5 min] Pedir manos levantadas para cada pregunta. Usar el resultado como punto de partida. Si la mayoría levanta la mano en ambas, decir: “Eso me dice que están en el lugar correcto.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#guatemala-nuestra-realidad-en-datos",
+    "href": "leccion-inaugural-maestria.html#guatemala-nuestra-realidad-en-datos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Guatemala: nuestra realidad en datos",
+    "text": "Guatemala: nuestra realidad en datos\n\n\nEl problema que enfrentamos:\n\n🏥 ~0.3 médicos por cada 1,000 habitantes (OMS recomienda 1)\n🍬 12% de adultos con diabetes, muchos sin diagnóstico\n🦟 +60,000 casos de dengue en el brote de 2023\n👶 108 muertes maternas por cada 100,000 nacidos vivos\n🌽 46% de niños menores de 5 años con desnutrición crónica\n\n\nLo que hay disponible:\n\nDécadas de datos del MSPAS\nRegistros hospitalarios del IGSS\nDatos de laboratorio, vacunación, epidemiología\nRegistros de programas de salud comunitaria\n\n\nEl problema: casi nadie está formado para convertir esos datos en decisiones.\n\n\n[~5-7 min] Estos números no son para desanimar — son para contextualizar la urgencia y la oportunidad. Énfasis: “Guatemala ya tiene los datos. Lo que no tiene es suficiente gente formada para usarlos.” Si el público incluye personas del MSPAS o del IGSS, reconocerlos: “algunos de ustedes trabajan con esos datos todos los días.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#la-historia-de-la-señora-maría",
+    "href": "leccion-inaugural-maestria.html#la-historia-de-la-señora-maría",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La historia de la Señora María",
+    "text": "La historia de la Señora María\n\n\nMaría tiene 52 años, vive en Chimaltenango, y lleva tres años con diabetes tipo 2. Su médico la controla bien en cada consulta. Sus exámenes son razonables. Todo parece en orden.\n\n\n\nLo que nadie sabe: en ese departamento, el 38% de los pacientes diabéticos como María abandonan el control antes del cuarto mes. El patrón se repite en cada clínica. Siempre en pacientes que viven a más de 40 minutos del centro.\n\n\n\n\nNadie lo ha analizado. Los datos existen. Están en los registros. Pero duermen.\n\n\n\nCiencia de datos en salud es despertar esos datos.\n\n[~7-10 min] Esta historia es la columna vertebral de toda la lección. Volver a ella en cada nivel. La historia es ficticia pero representativa — si lo prefieren pueden mencionar que es un escenario compuesto de patrones reales. Dejar que la última frase aterrice en silencio."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section-1",
+    "href": "leccion-inaugural-maestria.html#section-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte I\n\n\nPor qué la ciencia de datos importa en salud"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ustedes-ya-hacen-ciencia-de-datos",
+    "href": "leccion-inaugural-maestria.html#ustedes-ya-hacen-ciencia-de-datos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ustedes ya hacen ciencia de datos",
+    "text": "Ustedes ya hacen ciencia de datos\n\n\nLo que hacen como profesionales de salud:\n\nReúnen información sobre un paciente\nIdentifican patrones clínicos\nFormulan hipótesis (diagnóstico diferencial)\nEvalúan evidencia (labs, imágenes, historial)\nToman una decisión y la ajustan con el tiempo\n\n\nLo que hace un científico de datos:\n\nReúne datos de múltiples fuentes\nIdentifica patrones en grandes conjuntos\nFormula hipótesis (modelos predictivos)\nEvalúa evidencia (estadística, validación)\nToma decisiones y las refina iterativamente\n\n\n\n\nLa diferencia no es el proceso — es la escala.\nUstedes lo hacen para 1 paciente.\nLa ciencia de datos lo hace para 100,000.\n\n\n[~11-14 min] Este es el slide más importante para desactivar el miedo. Enfatizar: “No están aprendiendo algo ajeno. Están ampliando lo que ya saben hacer.” Si hay médicos en la sala: “El diagnóstico diferencial es hipótesis estadística. Solo que nadie les dijo así.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#la-diferencia-es-la-escala",
+    "href": "leccion-inaugural-maestria.html#la-diferencia-es-la-escala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La diferencia es la escala",
+    "text": "La diferencia es la escala\n\n\n\n\n\n\n\n[~14-16 min] Imagen conceptual de escala. Si no está lista, describir el concepto con palabras: “Imaginen que pudieran ver los registros de todos los pacientes diabéticos del IGSS de los últimos 10 años al mismo tiempo.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#de-los-datos-a-las-decisiones",
+    "href": "leccion-inaugural-maestria.html#de-los-datos-a-las-decisiones",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "De los datos a las decisiones",
+    "text": "De los datos a las decisiones\n\n\n[~16-18 min] Usar la analogía médica: “Así como un médico no diagnostica con una muestra sin procesar — la manda al laboratorio, la analiza, la interpreta — así funciona la ciencia de datos.” El flujo es siempre el mismo: recolección → limpieza → análisis → interpretación → decisión."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section-2",
+    "href": "leccion-inaugural-maestria.html#section-2",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte II\n\n\nLos cuatro niveles de la ciencia de datos en salud"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#un-campo-con-cuatro-pisos",
+    "href": "leccion-inaugural-maestria.html#un-campo-con-cuatro-pisos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Un campo con cuatro pisos",
+    "text": "Un campo con cuatro pisos\n\n\n\n\n\n\n\n[~18-20 min] Presentar como preview — decir que van a recorrer los cuatro pisos en los próximos 15 minutos. “Cada nivel es más complejo, pero no más importante. La clínica de pueblo necesita nivel 1 tanto como el ministerio necesita nivel 2.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-1-la-sala-de-consulta",
+    "href": "leccion-inaugural-maestria.html#nivel-1-la-sala-de-consulta",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 1: La sala de consulta",
+    "text": "Nivel 1: La sala de consulta\nCiencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión y atención\n\n\nVolvamos a María:\nUn analista revisa 5 años de datos del centro de salud de Chimaltenango.\nDescubre: el 38% de los pacientes diabéticos abandona el control antes del cuarto mes.\nPatrón: viven a más de 40 minutos del centro. Todos en zona rural.\n→ La solución no es clínica: es de acceso. Los datos lo revelaron.\n\n[~20-23 min] Conectar siempre con la historia de María. Es la manera de que los slides no sean abstractos. Énfasis: “Esto no requiere inteligencia artificial. Requiere mirar los datos que ya existen.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-1-visualización",
+    "href": "leccion-inaugural-maestria.html#nivel-1-visualización",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 1: Visualización",
+    "text": "Nivel 1: Visualización\n\n\n“A veces, una sola visualización revela el patrón que cambia la intervención.”\n\n\n[~23-24 min] Pasar rápido si la imagen habla por sí sola."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-2-el-país-como-paciente",
+    "href": "leccion-inaugural-maestria.html#nivel-2-el-país-como-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 2: El país como paciente",
+    "text": "Nivel 2: El país como paciente\nSalud pública y epidemiología digital\n\nDatos poblacionales → decisiones de política\nVigilancia epidemiológica, predicción de brotes\nOptimización de recursos a escala nacional\n\n\nEl caso del dengue en Guatemala:\nEl brote de 2023 no llegó de sorpresa para los datos — la temperatura, las lluvias y los vectores habían dado señales semanas antes.\nUn sistema de alerta temprana entrenado en esos datos podría haber activado fumigación preventiva con 3-4 semanas de anticipación.\n\n\n→ Menos casos. Menos muertes. Mismo presupuesto.\n\n[~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica. Énfasis: “Esto no es ciencia ficción. Varios países de la región ya tienen sistemas así.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-2-vigilancia-epidemiológica",
+    "href": "leccion-inaugural-maestria.html#nivel-2-vigilancia-epidemiológica",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 2: Vigilancia epidemiológica",
+    "text": "Nivel 2: Vigilancia epidemiológica\n\nLo que un dashboard permite preguntar:\n\n¿Dónde están los focos activos? · ¿Cuál es la tendencia semanal? · ¿Qué población está más expuesta?\n\n\n[~27-28 min] El tablero de COVID es el ejemplo más conocido. Conectar con dengue y con lo que Guatemala podría tener."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-3-la-evidencia-que-cambia-protocolos",
+    "href": "leccion-inaugural-maestria.html#nivel-3-la-evidencia-que-cambia-protocolos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: La evidencia que cambia protocolos",
+    "text": "Nivel 3: La evidencia que cambia protocolos\nCiencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nAnálisis de supervivencia, modelos de riesgo\nDatos del mundo real (real-world evidence)\n\n\nEjemplo:\n¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?\nCon datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.\n→ Investigación con los datos que ya tenemos.\n\n[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento en la última década — porque los ensayos clínicos son caros y lentos, pero los registros electrónicos están llenos de datos reales."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-3-curvas-de-supervivencia",
+    "href": "leccion-inaugural-maestria.html#nivel-3-curvas-de-supervivencia",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: Curvas de supervivencia",
+    "text": "Nivel 3: Curvas de supervivencia\n\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente cambia la historia natural de la enfermedad.”\n\n\n[~32-33 min] Explicar brevemente qué muestra la curva (probabilidad de sobrevivir en el tiempo, por grupo de tratamiento). No entrar en estadística — solo el concepto."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-4-cuando-los-genes-hablan",
+    "href": "leccion-inaugural-maestria.html#nivel-4-cuando-los-genes-hablan",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 4: Cuando los genes hablan",
+    "text": "Nivel 4: Cuando los genes hablan\nBioinformática clínica\n\nAnálisis de datos genómicos y moleculares\nIdentificación de mutaciones y biomarcadores\nMedicina de precisión: el tratamiento correcto, para el paciente correcto\n\n\nEn Guatemala:\nNuestra población tiene una genética única — mezcla de herencias mayas, españolas y africanas.\nLos modelos de riesgo entrenados en poblaciones europeas no siempre funcionan aquí.\nNecesitamos datos genómicos propios. Necesitamos bioinformáticos que los analicen.\n\n[~33-36 min] Este es el nivel más avanzado — pero también el más personalmente relevante para Guatemala. El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#nivel-4-medicina-de-precisión",
+    "href": "leccion-inaugural-maestria.html#nivel-4-medicina-de-precisión",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 4: Medicina de precisión",
+    "text": "Nivel 4: Medicina de precisión\n\n\n[~36-37 min] Ejemplo de mutación EGFR: el mismo diagnóstico de “cáncer de pulmón” tiene tratamientos completamente distintos según la mutación. Sin datos genómicos, todos reciben el mismo tratamiento. Con datos, se personaliza."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#una-nota-sobre-ética",
+    "href": "leccion-inaugural-maestria.html#una-nota-sobre-ética",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una nota sobre ética",
+    "text": "Una nota sobre ética\n\n\nLos datos de salud son de las personas — no del sistema.\n\n\n\nPrivacidad: Consentimiento informado, anonimización, acceso controlado\nEquidad: Los modelos pueden reproducir sesgos existentes — o corregirlos\nInterpretación: Un dato nunca habla solo; necesita contexto clínico\nResponsabilidad: Quien analiza los datos comparte la responsabilidad del impacto\n\n\nLa ciencia de datos sin ética es solo vigilancia.\n\n[~37-39 min] Este slide siempre genera conversación. No saltar por encima de él. Si hay tiempo: preguntar si alguien tiene un ejemplo de sesgo en datos de salud que haya observado."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#recapitulación-los-cuatro-niveles",
+    "href": "leccion-inaugural-maestria.html#recapitulación-los-cuatro-niveles",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Recapitulación: los cuatro niveles",
+    "text": "Recapitulación: los cuatro niveles\n\n\n\nNivel\nAplicación\nEjemplo Guatemala\n\n\n\n\n1\nClínica\nAbandono de control en pacientes diabéticos\n\n\n2\nSalud pública\nAlerta temprana de dengue\n\n\n3\nInvestigación\nComparar protocolos de preeclampsia\n\n\n4\nBioinformática\nModelos de riesgo para población guatemalteca\n\n\n\n\n[~39-40 min] Pausa de síntesis. Preguntar si hay preguntas antes de pasar a la sección de IA. Este es el fin de la segunda parte — de aquí en adelante hablamos del horizonte."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section-3",
+    "href": "leccion-inaugural-maestria.html#section-3",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte III\n\n\nInteligencia artificial y el futuro del campo"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#existe-un-nivel-5",
+    "href": "leccion-inaugural-maestria.html#existe-un-nivel-5",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Existe un Nivel 5?",
+    "text": "¿Existe un Nivel 5?\n\n\n[~40-42 min] Transición dramática: “Recapitulamos los cuatro niveles. Pero el campo no se detiene ahí.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#el-mapa-de-la-inteligencia-artificial",
+    "href": "leccion-inaugural-maestria.html#el-mapa-de-la-inteligencia-artificial",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El mapa de la inteligencia artificial",
+    "text": "El mapa de la inteligencia artificial\n\n\n[~42-44 min] IA → Machine Learning → Deep Learning. No entrar en detalle técnico — solo ubicar los conceptos anidados. “Deep learning es el motor detrás de casi todo lo que vamos a ver a continuación.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ia-leyendo-radiografías",
+    "href": "leccion-inaugural-maestria.html#ia-leyendo-radiografías",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "IA leyendo radiografías",
+    "text": "IA leyendo radiografías\n\n\n[~46-47 min] Modelos de visión ya validados en radiología. Algunos detectan hallazgos que radiólogos inexpertos podrían pasar por alto. Énfasis: el modelo no reemplaza al radiólogo — le da una segunda opinión a las 3am."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#ia-leyendo-radiografías-1",
+    "href": "leccion-inaugural-maestria.html#ia-leyendo-radiografías-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "IA leyendo radiografías",
+    "text": "IA leyendo radiografías\n\n\n[~47-48 min] Mostrar la predicción del modelo. Transición natural hacia: “si una red puede aprender del lenguaje de las imágenes… ¿qué pasa cuando aprende el lenguaje de las palabras?”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#tokenizar-el-lenguaje",
+    "href": "leccion-inaugural-maestria.html#tokenizar-el-lenguaje",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Tokenizar el lenguaje",
+    "text": "Tokenizar el lenguaje\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLos modelos no leen palabras — leen números.\nCada token (fragmento de palabra) se convierte en un vector matemático (embedding).\n\n\n[~49-51 min] Agrupar tokens y embeddings en un solo slide para ir más rápido. No profundizar — solo transmitir la idea. “El ‘significado’ de una palabra queda codificado en su posición en un espacio matemático de alta dimensión.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#las-palabras-similares-están-cerca",
+    "href": "leccion-inaugural-maestria.html#las-palabras-similares-están-cerca",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Las palabras similares están cerca",
+    "text": "Las palabras similares están cerca\n\n\n“Diabetes” y “glucosa” terminan cercanas en ese espacio.\n“Cáncer” y “tumor” también.\nEl modelo aprende relaciones médicas sin que nadie se las enseñe explícitamente.\n\n\n[~51-52 min] Este concepto es el puente fundamental hacia APOLLO. Guardar el pensamiento para el siguiente slide."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#los-chatbots-que-ya-conocen",
+    "href": "leccion-inaugural-maestria.html#los-chatbots-que-ya-conocen",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Los chatbots que ya conocen",
+    "text": "Los chatbots que ya conocen\n\n\n[~52-53 min] Reconocimiento: todos en la sala han usado al menos uno de estos. “ChatGPT, Gemini, Claude… todos funcionan con el mismo principio fundamental que acaban de ver.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#una-pregunta-que-cambió-el-campo",
+    "href": "leccion-inaugural-maestria.html#una-pregunta-que-cambió-el-campo",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una pregunta que cambió el campo",
+    "text": "Una pregunta que cambió el campo\n\n\n\n\n\n\n\n\n\nSi un modelo puede aprender el “lenguaje” de las palabras…\n¿puede aprender el “lenguaje” completo de un paciente?\n\n\n[~53-54 min] Pausa dramática. Esta es la pregunta que llevó a APOLLO. “No el historial de un paciente escrito en notas — sino toda su información: labs, imágenes, signos vitales, medicamentos, diagnósticos… todo al mismo tiempo.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-el-embedding-de-un-paciente",
+    "href": "leccion-inaugural-maestria.html#apollo-el-embedding-de-un-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — El embedding de un paciente",
+    "text": "APOLLO — El embedding de un paciente\n\n\n\n\n\n\nAsí como “diabetes” tiene un punto en el espacio de los embeddings…\nun paciente completo puede tener un punto en un espacio médico de alta dimensión.\n\n\n\n[~55 min] Esta es la conexión con lo que explicamos antes sobre embeddings. Un “paciente embedding” es la representación matemática de todo su historial.\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-encontrar-pacientes-similares",
+    "href": "leccion-inaugural-maestria.html#apollo-encontrar-pacientes-similares",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Encontrar pacientes similares",
+    "text": "APOLLO — Encontrar pacientes similares\n\n\n\n\n\n¿Para qué sirve en la práctica?\n\nBuscar en millones de historias clínicas el caso más parecido al tuyo\nAnticipar evoluciones basándose en casos similares pasados\nApoyar decisiones con evidencia real de la propia institución\n\n\n\n[~55-56 min] Énfasis en aplicaciones prácticas. Preguntar: “¿Cuántas veces quisieron saber cómo evolucionó un caso parecido en otro hospital?”\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-el-espacio-de-los-pacientes",
+    "href": "leccion-inaugural-maestria.html#apollo-el-espacio-de-los-pacientes",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — El espacio de los pacientes",
+    "text": "APOLLO — El espacio de los pacientes\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-predicciones-clínicas",
+    "href": "leccion-inaugural-maestria.html#apollo-predicciones-clínicas",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Predicciones clínicas",
+    "text": "APOLLO — Predicciones clínicas\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#apollo-notas-clínicas-integradas",
+    "href": "leccion-inaugural-maestria.html#apollo-notas-clínicas-integradas",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Notas clínicas integradas",
+    "text": "APOLLO — Notas clínicas integradas\n\n\n\n\n\n\n\n[~56-57 min] APOLLO puede integrar notas en lenguaje natural con datos estructurados. Esto es especialmente relevante para sistemas de salud donde la documentación es incompleta o mixta.\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#qué-significa-todo-esto-para-guatemala",
+    "href": "leccion-inaugural-maestria.html#qué-significa-todo-esto-para-guatemala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Qué significa todo esto para Guatemala?",
+    "text": "¿Qué significa todo esto para Guatemala?\n\n\n\nLo que la IA puede hacer:\n\nLeer imágenes médicas con alta precisión\nProcesar texto clínico en español e idiomas mayas\nEncontrar patrones en millones de registros\nAnticipar riesgos individuales y poblacionales\n\n\nLo que la IA NO puede hacer sola:\n\nSaber qué pregunta clínica vale la pena hacer\nInterpretar resultados con criterio médico y cultural\nAdaptar un modelo entrenado en EEUU a nuestra población\nTomar decisiones éticas sobre uso de datos\n\n\n\n\nEso lo hacen ustedes.\n\n\n[~57-58 min] Este es el argumento central de la maestría: la IA necesita profesionales de salud con criterio de datos. No puede operar sola en un contexto clínico real."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section-4",
+    "href": "leccion-inaugural-maestria.html#section-4",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte IV\n\n\nSu viaje: la maestría y quiénes van a ser"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#lo-que-van-a-aprender",
+    "href": "leccion-inaugural-maestria.html#lo-que-van-a-aprender",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que van a aprender",
+    "text": "Lo que van a aprender\n\n\nFundamentos\n\nEstadística aplicada a salud\nBases de datos clínicos\nEpidemiología cuantitativa\nÉtica y gobernanza de datos\n\n\nHerramientas\n\nR y Python para análisis de datos\nSQL para bases de datos clínicas\nVisualización (ggplot2, Tableau, Shiny)\nMachine learning aplicado a salud\n\n\nAplicaciones\n\nVigilancia epidemiológica digital\nModelos de predicción clínica\nAnálisis de supervivencia\nIntroducción a bioinformática\n\n\n\n\nNo necesitan saber programar hoy.\nNecesitan estar dispuestos a aprender.\n\n\n[~58-62 min — extenderse si hay tiempo] Dar panorama del currículum sin entrar en detalles administrativos. Énfasis: “La curva de aprendizaje es real, pero la pendiente no es vertical. Empezamos desde cero juntos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#quiénes-van-a-ser",
+    "href": "leccion-inaugural-maestria.html#quiénes-van-a-ser",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Quiénes van a ser",
+    "text": "Quiénes van a ser\n\n\n\n\n\n\n\n[~62-65 min] Recorrer brevemente los 6 caminos: analítica hospitalaria, salud pública/OPS/OMS, investigación clínica, política de salud, health tech startup, bioinformática. “Hay espacio para todos ustedes — el campo es nuevo y amplio.”"
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#el-perfil-único-que-tienen",
+    "href": "leccion-inaugural-maestria.html#el-perfil-único-que-tienen",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El perfil único que tienen",
+    "text": "El perfil único que tienen\n\n\n\n\n\n\n\n\n\n\nUn programador puro no sabe qué pregunta clínica importa.\nUn clínico puro no puede analizar 100,000 registros.\n\nUstedes son el puente.\nEntienden al paciente y aprenderán a hablarle a los datos.\nEsa combinación es la más escasa y la más valiosa del campo.\n\n\n[~65-67 min] Este es el slide de identidad profesional. Que salgan sabiendo exactamente quiénes son y por qué importan."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#una-comunidad-que-empieza-hoy",
+    "href": "leccion-inaugural-maestria.html#una-comunidad-que-empieza-hoy",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una comunidad que empieza hoy",
+    "text": "Una comunidad que empieza hoy\n\n\n\n\n\n\n\n\nLos errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.\nNo están solos en esto.\n\n\n[~67-68 min] Sentido de comunidad y legado."
+  },
+  {
+    "objectID": "leccion-inaugural-maestria.html#section-5",
+    "href": "leccion-inaugural-maestria.html#section-5",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "“En cinco años, cuando alguien pregunte quién empezó la ciencia de datos en salud en Guatemala, la respuesta van a ser ustedes.”\n\n\n¡Bienvenidos, primera generación!\n\n\n📧 oliver.mazariegos98@gmail.com · 💬 linkedin.com/in/oliver-mazariegos\n\n\n[~70 min] Slide final. Dar espacio para aplausos. Invitar preguntas. Si hay autoridades de USAC o la gerencia del programa presentes, cederles la palabra."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section",
+    "href": "leccion-inaugural-julio-2026.html#section",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte I\n\n\nPor qué la ciencia de datos importa — y por qué ustedes"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#una-pregunta-para-arrancar",
+    "href": "leccion-inaugural-julio-2026.html#una-pregunta-para-arrancar",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una pregunta para arrancar",
+    "text": "Una pregunta para arrancar\n\n\n¿Cuántos de ustedes alguna vez tomaron una decisión clínica, de política pública, o de gestión… y desearon tener más datos?\n\n\n\n\n¿Y cuántos tenían los datos pero no sabían qué hacer con ellos?\n\n\n\n\nEsa brecha es exactamente la que esta maestría existe para cerrar.\n\n[~3-5 min] Pedir manos levantadas para cada pregunta. Usar el resultado como punto de partida. Si la mayoría levanta la mano en ambas: “Eso me dice que están en el lugar correcto.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#guatemala-nuestra-realidad-en-datos",
+    "href": "leccion-inaugural-julio-2026.html#guatemala-nuestra-realidad-en-datos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Guatemala: nuestra realidad en datos",
+    "text": "Guatemala: nuestra realidad en datos\n\n\nEl problema que enfrentamos:\n\n🏥 ~0.3 médicos por cada 1,000 habitantes (OMS recomienda 1)\n🍬 12% de adultos con diabetes, muchos sin diagnóstico\n🦟 +60,000 casos de dengue en el brote de 2023\n👶 108 muertes maternas por cada 100,000 nacidos vivos\n🌽 46% de niños menores de 5 años con desnutrición crónica\n\n\nLo que hay disponible:\n\nDécadas de datos del MSPAS\nRegistros hospitalarios del IGSS\nDatos de laboratorio, vacunación, epidemiología\nRegistros de programas de salud comunitaria\n\n\nEl problema: casi nadie está formado para convertir esos datos en decisiones.\n\n\n[~5-7 min] Estos números no son para desanimar — son para contextualizar la urgencia y la oportunidad. Énfasis: “Guatemala ya tiene los datos. Lo que no tiene es suficiente gente formada para usarlos.” Si hay personas del MSPAS o del IGSS, reconocerlos: “algunos de ustedes trabajan con esos datos todos los días.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#la-historia-de-la-señora-maría",
+    "href": "leccion-inaugural-julio-2026.html#la-historia-de-la-señora-maría",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La historia de la Señora María",
+    "text": "La historia de la Señora María\n\n\nMaría tiene 52 años, vive en Chimaltenango, y lleva tres años con diabetes tipo 2. Su médico la controla bien en cada consulta. Sus exámenes son razonables. Todo parece en orden.\n\n\n\nLo que nadie sabe: en ese departamento, el 38% de los pacientes diabéticos como María abandonan el control antes del cuarto mes. El patrón se repite en cada clínica. Siempre en pacientes que viven a más de 40 minutos del centro.\n\n\n\n\nNadie lo ha analizado. Los datos existen. Están en los registros. Pero duermen.\n\n\n\nCiencia de datos en salud es despertar esos datos.\n\n[~7-10 min] Esta historia es la columna vertebral de toda la lección. Volver a ella en cada nivel. La historia es ficticia pero representativa de patrones reales. Dejar que la última frase aterrice en silencio antes de pasar al siguiente slide."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#lo-que-vamos-a-recorrer-hoy",
+    "href": "leccion-inaugural-julio-2026.html#lo-que-vamos-a-recorrer-hoy",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que vamos a recorrer hoy",
+    "text": "Lo que vamos a recorrer hoy\n\n\n\n\n\n\n\n\n\nSección\nTema\nTiempo\n\n\n\n\nI\nPor qué la ciencia de datos importa — y por qué ustedes\n~8 min\n\n\nII\nLos cuatro niveles: de la consulta a la bioinformática\n~20 min\n\n\nIII\nInteligencia artificial y el futuro del campo\n~15 min\n\n\nIV\nSu viaje: la maestría, las herramientas, quiénes van a ser\n~10 min\n\n\n—\nCierre y preguntas\n~5 min\n\n\n\n\n[~10 min] Dar el mapa — que la audiencia sepa en todo momento dónde están dentro de la hora."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section-1",
+    "href": "leccion-inaugural-julio-2026.html#section-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte II\n\n\nLos cuatro niveles: de la consulta a la bioinformática"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#ustedes-ya-hacen-ciencia-de-datos",
+    "href": "leccion-inaugural-julio-2026.html#ustedes-ya-hacen-ciencia-de-datos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Ustedes ya hacen ciencia de datos",
+    "text": "Ustedes ya hacen ciencia de datos\n\n\nLo que hacen como profesionales de salud:\n\nReúnen información sobre un paciente\nIdentifican patrones clínicos\nFormulan hipótesis (diagnóstico diferencial)\nEvalúan evidencia (labs, imágenes, historial)\nToman una decisión y la ajustan con el tiempo\n\n\nLo que hace un científico de datos:\n\nReúne datos de múltiples fuentes\nIdentifica patrones en grandes conjuntos\nFormula hipótesis (modelos predictivos)\nEvalúa evidencia (estadística, validación)\nToma decisiones y las refina iterativamente\n\n\n\n\nLa diferencia no es el proceso — es la escala.\nUstedes lo hacen para 1 paciente.\nLa ciencia de datos lo hace para 100,000.\n\n\n[~11-14 min] Este es el slide más importante para desactivar el miedo. “No están aprendiendo algo ajeno. Están ampliando lo que ya saben hacer.” Si hay médicos en la sala: “El diagnóstico diferencial es hipótesis estadística. Solo que nadie les dijo así.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#la-diferencia-es-la-escala",
+    "href": "leccion-inaugural-julio-2026.html#la-diferencia-es-la-escala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "La diferencia es la escala",
+    "text": "La diferencia es la escala\n\n\n\n\n\n\n[~14-16 min] Si la imagen no está lista, describir con palabras: “Imaginen que pudieran ver los registros de todos los pacientes diabéticos del IGSS de los últimos 10 años al mismo tiempo.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#de-los-datos-a-las-decisiones",
+    "href": "leccion-inaugural-julio-2026.html#de-los-datos-a-las-decisiones",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "De los datos a las decisiones",
+    "text": "De los datos a las decisiones\n\n\n[~16-18 min] Analogía médica: “Así como un médico no diagnostica con una muestra sin procesar — la manda al laboratorio, la analiza, la interpreta — así funciona la ciencia de datos.” El flujo es siempre el mismo: recolección → limpieza → análisis → interpretación → decisión."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section-2",
+    "href": "leccion-inaugural-julio-2026.html#section-2",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte III\n\n\nInteligencia artificial y el futuro del campo"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#un-campo-con-cuatro-pisos",
+    "href": "leccion-inaugural-julio-2026.html#un-campo-con-cuatro-pisos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Un campo con cuatro pisos",
+    "text": "Un campo con cuatro pisos\n\n\n\n\n\n\n[~18-20 min] Decir que van a recorrer los cuatro pisos en los próximos 15 minutos. “Cada nivel es más complejo, pero no más importante. La clínica de pueblo necesita nivel 1 tanto como el ministerio necesita nivel 2.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-1-la-sala-de-consulta",
+    "href": "leccion-inaugural-julio-2026.html#nivel-1-la-sala-de-consulta",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 1: La sala de consulta",
+    "text": "Nivel 1: La sala de consulta\nCiencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión y atención\n\n\nVolvamos a María:\nUn analista revisa 5 años de datos del centro de salud de Chimaltenango.\nDescubre: el 38% de los pacientes diabéticos abandona el control antes del cuarto mes.\nPatrón: viven a más de 40 minutos del centro. Todos en zona rural.\n→ La solución no es clínica: es de acceso. Los datos lo revelaron.\n\n[~20-23 min] Conectar siempre con la historia de María. Énfasis: “Esto no requiere inteligencia artificial. Requiere mirar los datos que ya existen.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-1-visualización",
+    "href": "leccion-inaugural-julio-2026.html#nivel-1-visualización",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 1: Visualización",
+    "text": "Nivel 1: Visualización\n\n\n“A veces, una sola visualización revela el patrón que cambia la intervención.”\n\n\n[~23-24 min] Pasar relativamente rápido si la imagen habla por sí sola."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-2-el-país-como-paciente",
+    "href": "leccion-inaugural-julio-2026.html#nivel-2-el-país-como-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 2: El país como paciente",
+    "text": "Nivel 2: El país como paciente\nSalud pública y epidemiología digital\n\nDatos poblacionales → decisiones de política\nVigilancia epidemiológica, predicción de brotes\nOptimización de recursos a escala nacional\n\n\nEl caso del dengue en Guatemala:\nEl brote de 2023 no llegó de sorpresa para los datos — la temperatura, las lluvias y los vectores habían dado señales semanas antes.\nUn sistema de alerta temprana entrenado en esos datos podría haber activado fumigación preventiva con 3-4 semanas de anticipación.\n\n\n→ Menos casos. Menos muertes. Mismo presupuesto.\n\n[~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica. Énfasis: “Esto no es ciencia ficción. Varios países de la región ya tienen sistemas así.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-2-vigilancia-epidemiológica",
+    "href": "leccion-inaugural-julio-2026.html#nivel-2-vigilancia-epidemiológica",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 2: Vigilancia epidemiológica",
+    "text": "Nivel 2: Vigilancia epidemiológica\n\nLo que un dashboard permite preguntar:\n\n¿Dónde están los focos activos? · ¿Cuál es la tendencia semanal? · ¿Qué población está más expuesta?\n\n\n[~27-28 min] El tablero de COVID es el ejemplo más conocido. Conectar con dengue y con lo que Guatemala podría tener."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-3-la-evidencia-que-cambia-protocolos",
+    "href": "leccion-inaugural-julio-2026.html#nivel-3-la-evidencia-que-cambia-protocolos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: La evidencia que cambia protocolos",
+    "text": "Nivel 3: La evidencia que cambia protocolos\nCiencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nAnálisis de supervivencia, modelos de riesgo\nDatos del mundo real (real-world evidence)\n\n\nEjemplo:\n¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?\nCon datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.\n→ Investigación con los datos que ya tenemos.\n\n[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento — porque los ensayos clínicos son caros y lentos, pero los registros clínicos están llenos de datos reales."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-3-curvas-de-supervivencia",
+    "href": "leccion-inaugural-julio-2026.html#nivel-3-curvas-de-supervivencia",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: Curvas de supervivencia",
+    "text": "Nivel 3: Curvas de supervivencia\n\n“Los datos clínicos permiten evaluar si un tratamiento realmente cambia la historia natural de la enfermedad.”\n\n[~32-33 min] Explicar brevemente qué muestra la curva (probabilidad de sobrevivir en el tiempo, por grupo de tratamiento). No entrar en estadística — solo el concepto."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-4-cuando-los-genes-hablan",
+    "href": "leccion-inaugural-julio-2026.html#nivel-4-cuando-los-genes-hablan",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 4: Cuando los genes hablan",
+    "text": "Nivel 4: Cuando los genes hablan\nBioinformática clínica\n\nAnálisis de datos genómicos y moleculares\nIdentificación de mutaciones y biomarcadores\nMedicina de precisión: el tratamiento correcto, para el paciente correcto\n\n\nEn Guatemala:\nNuestra población tiene una genética única — mezcla de herencias mayas, españolas y africanas.\nLos modelos de riesgo entrenados en poblaciones europeas no siempre funcionan aquí.\nNecesitamos datos genómicos propios. Necesitamos bioinformáticos que los analicen.\n\n[~33-36 min] El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-4-medicina-de-precisión",
+    "href": "leccion-inaugural-julio-2026.html#nivel-4-medicina-de-precisión",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 4: Medicina de precisión",
+    "text": "Nivel 4: Medicina de precisión\n\n\n[~36-37 min] Ejemplo EGFR: el mismo diagnóstico de “cáncer de pulmón” tiene tratamientos completamente distintos según la mutación. Sin datos genómicos, todos reciben el mismo tratamiento. Con datos, se personaliza."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#una-nota-que-no-podemos-saltarnos",
+    "href": "leccion-inaugural-julio-2026.html#una-nota-que-no-podemos-saltarnos",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una nota que no podemos saltarnos",
+    "text": "Una nota que no podemos saltarnos\n\n\nLos datos de salud son de las personas — no del sistema.\n\n\n\nPrivacidad: Consentimiento informado, anonimización, acceso controlado\nEquidad: Los modelos pueden reproducir sesgos existentes — o corregirlos\nInterpretación: Un dato nunca habla solo; necesita contexto clínico\nResponsabilidad: Quien analiza los datos comparte la responsabilidad del impacto\n\n\nLa ciencia de datos sin ética es solo vigilancia.\n\n[~37-39 min] No saltar este slide. Si hay tiempo: preguntar si alguien tiene un ejemplo de sesgo en datos de salud que haya observado en su práctica."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#recapitulación-los-cuatro-niveles",
+    "href": "leccion-inaugural-julio-2026.html#recapitulación-los-cuatro-niveles",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Recapitulación: los cuatro niveles",
+    "text": "Recapitulación: los cuatro niveles\n\n\n\nNivel\nAplicación\nEjemplo Guatemala\n\n\n\n\n1\nClínica\nAbandono de control en pacientes diabéticos\n\n\n2\nSalud pública\nAlerta temprana de dengue\n\n\n3\nInvestigación\nComparar protocolos de preeclampsia\n\n\n4\nBioinformática\nModelos de riesgo para nuestra población\n\n\n\n\n[~39-40 min] Pausa de síntesis. Preguntar si hay preguntas antes de pasar a IA. Este es el fin de la segunda parte — de aquí en adelante hablamos del horizonte."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section-3",
+    "href": "leccion-inaugural-julio-2026.html#section-3",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "Parte IV\n\n\nSu viaje: la maestría y quiénes van a ser"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#existe-un-nivel-5",
+    "href": "leccion-inaugural-julio-2026.html#existe-un-nivel-5",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Existe un Nivel 5?",
+    "text": "¿Existe un Nivel 5?\n\n\n[~40-42 min] Transición dramática: “Recapitulamos los cuatro niveles. Pero el campo no se detiene ahí.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#el-mapa-de-la-inteligencia-artificial",
+    "href": "leccion-inaugural-julio-2026.html#el-mapa-de-la-inteligencia-artificial",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El mapa de la inteligencia artificial",
+    "text": "El mapa de la inteligencia artificial\n\n\n[~42-44 min] IA → Machine Learning → Deep Learning. No entrar en detalle técnico — solo ubicar los conceptos anidados. “Deep learning es el motor detrás de casi todo lo que vamos a ver a continuación.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#qué-es-una-red-neuronal",
+    "href": "leccion-inaugural-julio-2026.html#qué-es-una-red-neuronal",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Qué es una red neuronal?",
+    "text": "¿Qué es una red neuronal?\n\n\nPiénsalo como un sistema de toma de decisiones inspirado en el cerebro:\n\nEntradas: Datos crudos (ej., valores de píxeles de una radiografía)\nCapas ocultas: Cada capa aprende a detectar patrones más complejos\nSalida: Una predicción (“esta radiografía muestra signos de neumonía”)\n\nLa red aprende por ejemplo — le mostramos miles de imágenes ya etiquetadas, y ella descubre qué patrones corresponden a cada diagnóstico.\n\n\n\n\n\n\n\n\n[~44-46 min] Analogía del médico residente: “Una red neuronal aprende como un residente. Al principio se equivoca. Con miles de casos, mejora. La diferencia es que puede revisar un millón de casos en una noche.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#ia-leyendo-radiografías",
+    "href": "leccion-inaugural-julio-2026.html#ia-leyendo-radiografías",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "IA leyendo radiografías",
+    "text": "IA leyendo radiografías\n\n\n[~46-47 min] Modelos de visión ya validados en radiología. Énfasis: el modelo no reemplaza al radiólogo — le da una segunda opinión a las 3am, cuando el cansancio afecta la precisión."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#ia-leyendo-radiografías-1",
+    "href": "leccion-inaugural-julio-2026.html#ia-leyendo-radiografías-1",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "IA leyendo radiografías",
+    "text": "IA leyendo radiografías\n\n\n[~47-48 min] Mostrar la predicción del modelo. Transición natural hacia: “si una red puede aprender del lenguaje de las imágenes… ¿qué pasa cuando aprende el lenguaje de las palabras?”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#las-llms-predicen-la-siguiente-palabra",
+    "href": "leccion-inaugural-julio-2026.html#las-llms-predicen-la-siguiente-palabra",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Las LLMs predicen la siguiente palabra",
+    "text": "Las LLMs predicen la siguiente palabra\n\n\n[~48-49 min] La intuición fundamental de los LLMs: predecir la siguiente palabra en secuencia, entrenados en textos masivos."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#tokenizar-el-lenguaje",
+    "href": "leccion-inaugural-julio-2026.html#tokenizar-el-lenguaje",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Tokenizar el lenguaje",
+    "text": "Tokenizar el lenguaje\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLos modelos no leen palabras — leen números.\nCada token se convierte en un vector matemático (embedding).\nEl “significado” queda codificado en ese vector.\n\n\n[~49-51 min] No profundizar en la matemática — solo transmitir la idea."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#las-palabras-similares-están-cerca",
+    "href": "leccion-inaugural-julio-2026.html#las-palabras-similares-están-cerca",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Las palabras similares están cerca",
+    "text": "Las palabras similares están cerca\n\n\n“Diabetes” y “glucosa” terminan cercanas en ese espacio.\nEl modelo aprende relaciones médicas sin que nadie se las enseñe explícitamente.\n\n\n[~51-52 min] Este concepto es el puente fundamental hacia APOLLO — guardar el pensamiento."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#los-chatbots-que-ya-conocen",
+    "href": "leccion-inaugural-julio-2026.html#los-chatbots-que-ya-conocen",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Los chatbots que ya conocen",
+    "text": "Los chatbots que ya conocen\n\n\n[~52-53 min] “ChatGPT, Gemini, Claude… todos funcionan con el mismo principio que acaban de ver.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#una-pregunta-que-cambió-el-campo",
+    "href": "leccion-inaugural-julio-2026.html#una-pregunta-que-cambió-el-campo",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una pregunta que cambió el campo",
+    "text": "Una pregunta que cambió el campo\n\n\n\n\n\n\n\n\nSi un modelo puede aprender el “lenguaje” de las palabras…\n¿puede aprender el “lenguaje” completo de un paciente?\n\n\n[~53-54 min] Pausa dramática. “No el historial escrito en notas — sino toda su información: labs, imágenes, signos vitales, medicamentos, diagnósticos… todo al mismo tiempo, a lo largo del tiempo.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-representación-virtual-de-un-paciente",
+    "href": "leccion-inaugural-julio-2026.html#apollo-representación-virtual-de-un-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Representación virtual de un paciente",
+    "text": "APOLLO — Representación virtual de un paciente\n\nLa idea central: usar la misma arquitectura de los LLMs — pero en vez de aprender el lenguaje humano, aprender el “lenguaje” completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.\n\n[~54-55 min] APOLLO es un paper de 2026 — investigación de frontera. Poner en contexto: “No es un producto disponible. Es el horizonte hacia donde va el campo.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-el-embedding-de-un-paciente",
+    "href": "leccion-inaugural-julio-2026.html#apollo-el-embedding-de-un-paciente",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — El embedding de un paciente",
+    "text": "APOLLO — El embedding de un paciente\n\n\nAsí como “diabetes” tiene un punto en el espacio de los embeddings…\nun paciente completo puede tener un punto en un espacio médico de alta dimensión.\n\n\n[~55 min] La conexión con embeddings que explicamos antes. Un “patient embedding” es la representación matemática de todo su historial."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-encontrar-pacientes-similares",
+    "href": "leccion-inaugural-julio-2026.html#apollo-encontrar-pacientes-similares",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Encontrar pacientes similares",
+    "text": "APOLLO — Encontrar pacientes similares\n\n¿Para qué sirve en la práctica?\n\nBuscar en millones de historias clínicas el caso más parecido al tuyo\nAnticipar evoluciones basándose en casos similares pasados\nApoyar decisiones con evidencia real de la propia institución\n\n\n[~55-56 min] Preguntar: “¿Cuántas veces quisieron saber cómo evolucionó un caso parecido en otro hospital?”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-el-espacio-de-los-pacientes",
+    "href": "leccion-inaugural-julio-2026.html#apollo-el-espacio-de-los-pacientes",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — El espacio de los pacientes",
+    "text": "APOLLO — El espacio de los pacientes\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-predicciones-clínicas",
+    "href": "leccion-inaugural-julio-2026.html#apollo-predicciones-clínicas",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Predicciones clínicas",
+    "text": "APOLLO — Predicciones clínicas\n\n\n\n\n\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#apollo-notas-clínicas-integradas",
+    "href": "leccion-inaugural-julio-2026.html#apollo-notas-clínicas-integradas",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "APOLLO — Notas clínicas integradas",
+    "text": "APOLLO — Notas clínicas integradas\n\n\n\n\n\n\n\n[~56-57 min] APOLLO puede integrar notas en lenguaje natural con datos estructurados. Relevante para sistemas donde la documentación es incompleta o mixta.\n\n\nZhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model for virtual patient representations at healthcare system scale. arXiv:2604.18570, 2026."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#qué-significa-todo-esto-para-guatemala",
+    "href": "leccion-inaugural-julio-2026.html#qué-significa-todo-esto-para-guatemala",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "¿Qué significa todo esto para Guatemala?",
+    "text": "¿Qué significa todo esto para Guatemala?\n\n\n\nLo que la IA puede hacer:\n\nLeer imágenes médicas con alta precisión\nProcesar texto clínico en español\nEncontrar patrones en millones de registros\nAnticipar riesgos individuales y poblacionales\n\n\nLo que la IA NO puede hacer sola:\n\nSaber qué pregunta clínica vale la pena hacer\nInterpretar resultados con criterio médico y cultural\nAdaptar un modelo entrenado en EEUU a nuestra población\nTomar decisiones éticas sobre uso de datos\n\n\n\n\nEso lo hacen ustedes.\n\n\n[~57-58 min] Este es el argumento central de toda la presentación: la IA necesita profesionales de salud con criterio de datos."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section-4",
+    "href": "leccion-inaugural-julio-2026.html#section-4",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "“En cinco años, cuando alguien pregunte quién empezó la ciencia de datos en salud en Guatemala, la respuesta van a ser ustedes.”\n\n\n¡Bienvenidos, primera generación!\n\n\n📧 oliver.mazariegos98@gmail.com · 💬 linkedin.com/in/oliver-mazariegos\n\n\n[~70 min] Dar espacio para aplausos. Invitar preguntas. Si hay autoridades de USAC o la gerencia del programa presentes, cederles la palabra."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#lo-que-van-a-aprender",
+    "href": "leccion-inaugural-julio-2026.html#lo-que-van-a-aprender",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que van a aprender",
+    "text": "Lo que van a aprender\n\n\nFundamentos\n\nEstadística aplicada a salud\nBases de datos clínicos\nEpidemiología cuantitativa\nÉtica y gobernanza de datos\n\n\nHerramientas\n\nR y Python para análisis de datos\nSQL para bases de datos clínicas\nVisualización (ggplot2, Shiny)\nMachine learning aplicado a salud\n\n\nAplicaciones\n\nVigilancia epidemiológica digital\nModelos de predicción clínica\nAnálisis de supervivencia\nIntroducción a bioinformática\n\n\n\n\nNo necesitan saber programar hoy.\nNecesitan estar dispuestos a aprender.\n\n\n[~58-62 min] Dar panorama del currículo sin entrar en detalles administrativos. “La curva de aprendizaje es real, pero la pendiente no es vertical. Empezamos desde cero juntos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#quiénes-van-a-ser",
+    "href": "leccion-inaugural-julio-2026.html#quiénes-van-a-ser",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Quiénes van a ser",
+    "text": "Quiénes van a ser\n\n\n\n\n\n\n[~62-65 min] Recorrer los 6 caminos: analítica hospitalaria, salud pública/OPS/OMS, investigación, política de salud, health tech, bioinformática. “El campo es nuevo y amplio — hay espacio para todos.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#el-perfil-único-que-tienen",
+    "href": "leccion-inaugural-julio-2026.html#el-perfil-único-que-tienen",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "El perfil único que tienen",
+    "text": "El perfil único que tienen\n\n\n\n\n\n\n\n\n\nUn programador puro no sabe qué pregunta clínica importa.\nUn clínico puro no puede analizar 100,000 registros.\n\nUstedes son el puente.\nEntienden al paciente y aprenderán a hablarle a los datos.\nEsa combinación es la más escasa y la más valiosa del campo.\n\n\n[~65-67 min] Slide de identidad profesional. Que salgan sabiendo exactamente quiénes son y por qué importan."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#una-comunidad-que-empieza-hoy",
+    "href": "leccion-inaugural-julio-2026.html#una-comunidad-que-empieza-hoy",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Una comunidad que empieza hoy",
+    "text": "Una comunidad que empieza hoy\n\n\n\n\n\n\n\nLos errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.\nNo están solos en esto.\n\n\n[~67-68 min] Sentido de comunidad y legado. Cerrar esta sección con calidez."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#lo-que-les-pido-para-este-camino",
+    "href": "leccion-inaugural-julio-2026.html#lo-que-les-pido-para-este-camino",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Lo que les pido para este camino",
+    "text": "Lo que les pido para este camino\n\n\nTraigan su curiosidad clínica — es su ventaja, no su limitación.\n\n\nNo teman al código ni a la estadística — son herramientas. Se aprenden con práctica, con paciencia y con buenos profesores.\n\n\nPregúntense siempre: ¿este análisis ayuda de verdad al paciente? ¿Al sistema? ¿A las comunidades más vulnerables?\n\n\nTengan paciencia con el proceso — un semestre los va a desafiar. Dos semestres los van a transformar.\n\n[~68-70 min] Cierre motivacional. Hablar despacio, con peso en cada punto."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#conclusiones",
+    "href": "leccion-inaugural-julio-2026.html#conclusiones",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\nLos datos de salud existen en Guatemala — lo que falta es gente formada para usarlos.\nLa ciencia de datos en salud no reemplaza al profesional clínico: lo amplifica.\nLos cuatro niveles van de lo cotidiano a la bioinformática — todos necesarios, todos complementarios.\nLa IA (modelos de visión, LLMs, representaciones de paciente como APOLLO) ya es parte del horizonte real del campo.\nEsta maestría existe para que Guatemala no espere a que el futuro llegue de afuera.\n\n\n[~70 min] Resumen rápido. La última frase es el cierre emocional — dar peso a cada palabra."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#section-5",
+    "href": "leccion-inaugural-julio-2026.html#section-5",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "",
+    "text": "“En cinco años, cuando alguien pregunte quién empezó la ciencia de datos en salud en Guatemala, la respuesta van a ser ustedes.”\n\n\n¡Bienvenidos, primera generación!\n\n\n📧 oliver.mazariegos98@gmail.com · 💬 linkedin.com/in/oliver-mazariegos\n\n\n[~70 min] Dar espacio para aplausos. Invitar preguntas. Si hay autoridades de USAC o la gerencia del programa presentes, cederles la palabra."
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#bienvenidos-a-un-momento-histórico.",
+    "href": "leccion-inaugural-julio-2026.html#bienvenidos-a-un-momento-histórico.",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Bienvenidos a un momento histórico.",
+    "text": "Bienvenidos a un momento histórico.\n\n\n\nEsta no es la apertura de un posgrado más.\nEs el inicio de algo que no existía en Guatemala hace un año.\n\n\n\n\n\n\n\n\n\n[~0-3 min] Abrir con calma y presencia. Reconocer a autoridades de USAC, a la gerencia del programa, y a los estudiantes. Pausa antes de hablar — que el silencio genere expectativa. Frase sugerida: “Hoy es el primer día de algo nuevo en Guatemala.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#bienvenidos-a-un-momento-histórico",
+    "href": "leccion-inaugural-julio-2026.html#bienvenidos-a-un-momento-histórico",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Bienvenidos a un momento histórico",
+    "text": "Bienvenidos a un momento histórico\n\n\n\nEsta no es la apertura de un posgrado más.\nEs el inicio de algo que no existía en Guatemala hace un año.\n\n\n\n\n\n\n\n\n[~0-3 min] Abrir con calma y presencia. Reconocer a autoridades de USAC, a la gerencia del programa, y a los estudiantes. Pausa antes de hablar — que el silencio genere expectativa. Frase sugerida: “Hoy es el primer día de algo nuevo en Guatemala.”"
+  },
+  {
+    "objectID": "leccion-inaugural-julio-2026.html#nivel-3-la-evidencia-que-cambia-protocolos-background",
+    "href": "leccion-inaugural-julio-2026.html#nivel-3-la-evidencia-que-cambia-protocolos-background",
+    "title": "Descifrando la Salud a través de los Datos",
+    "section": "Nivel 3: La evidencia que cambia protocolos {background}",
+    "text": "Nivel 3: La evidencia que cambia protocolos {background}\nCiencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nAnálisis de supervivencia, modelos de riesgo\nDatos del mundo real (real-world evidence)\n\n\nEjemplo:\n¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?\nCon datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.\n→ Investigación con los datos que ya tenemos.\n\n[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento — porque los ensayos clínicos son caros y lentos, pero los registros clínicos están llenos de datos reales."
   }
 ]
