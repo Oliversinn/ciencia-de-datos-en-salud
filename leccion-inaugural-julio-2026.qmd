@@ -112,7 +112,7 @@ Si hay personas del MSPAS o del IGSS, reconocerlos: "algunos de ustedes trabajan
 
 ---
 
-## La historia de la Señora María
+## La historia de la Señora María {.smaller}
 
 <br>
 
@@ -169,7 +169,7 @@ Por qué la ciencia de datos importa — y por qué ustedes
 
 ---
 
-## Ustedes ya hacen ciencia de datos
+## Ustedes ya hacen ciencia de datos {.smaller}
 
 :::: {.columns}
 
@@ -264,7 +264,7 @@ Los cuatro niveles: de la consulta a la bioinformática
 
 ---
 
-## Nivel 1: La sala de consulta
+## Nivel 1: La sala de consulta {.smaller}
 
 **Ciencia de datos en la práctica clínica**
 
@@ -275,9 +275,7 @@ Los cuatro niveles: de la consulta a la bioinformática
 . . .
 
 **Volvamos a María:**\
-Un analista revisa 5 años de datos del centro de salud de Chimaltenango.\
-Descubre: el 38% de los pacientes diabéticos abandona el control antes del cuarto mes.\
-Patrón: viven a más de 40 minutos del centro. Todos en zona rural.
+Un análisis de 5 años revela que el 38% de los diabéticos abandona el control antes del cuarto mes — todos viven a más de 40 min del centro.
 
 → La solución no es clínica: es de acceso. Los datos lo revelaron.
 
@@ -300,7 +298,7 @@ Patrón: viven a más de 40 minutos del centro. Todos en zona rural.
 
 ---
 
-## Nivel 2: El país como paciente
+## Nivel 2: El país como paciente {.smaller}
 
 **Salud pública y epidemiología digital**
 
@@ -310,13 +308,11 @@ Patrón: viven a más de 40 minutos del centro. Todos en zona rural.
 
 . . .
 
-**El caso del dengue en Guatemala:**\
-El brote de 2023 no llegó de sorpresa para los datos — la temperatura, las lluvias y los vectores habían dado señales semanas antes.\
-Un sistema de alerta temprana entrenado en esos datos podría haber activado fumigación preventiva con 3-4 semanas de anticipación.
+**El caso del dengue 2023:**\
+Los datos de temperatura, lluvias y vectores daban señales semanas antes del brote.\
+Un sistema de alerta temprana habría permitido fumigación preventiva con 3-4 semanas de anticipación.
 
-. . .
-
-**→ Menos casos. Menos muertes. Mismo presupuesto.**
+→ **Menos casos. Menos muertes. Mismo presupuesto.**
 
 ::: notes
 [~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica.
@@ -339,7 +335,7 @@ Un sistema de alerta temprana entrenado en esos datos podría haber activado fum
 
 ---
 
-## Nivel 3: La evidencia que cambia protocolos
+## Nivel 3: La evidencia que cambia protocolos {.smaller}
 
 **Ciencia de datos en investigación clínica**
 
@@ -350,10 +346,9 @@ Un sistema de alerta temprana entrenado en esos datos podría haber activado fum
 . . .
 
 **Ejemplo:**\
-¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?\
-Con datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.
+10 años de historias clínicas del IGSS permiten comparar protocolos de preeclampsia sin necesitar un nuevo ensayo clínico.
 
-**→ Investigación con los datos que ya tenemos.**
+→ **Investigación con los datos que ya tenemos.**
 
 ::: notes
 [~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar.
@@ -374,7 +369,7 @@ Con datos de 10 años de historias clínicas y curvas de supervivencia materna, 
 
 ---
 
-## Nivel 4: Cuando los genes hablan
+## Nivel 4: Cuando los genes hablan {.smaller}
 
 **Bioinformática clínica**
 
@@ -385,9 +380,8 @@ Con datos de 10 años de historias clínicas y curvas de supervivencia materna, 
 . . .
 
 **En Guatemala:**\
-Nuestra población tiene una genética única — mezcla de herencias mayas, españolas y africanas.\
-Los modelos de riesgo entrenados en poblaciones europeas **no siempre funcionan aquí**.\
-Necesitamos datos genómicos propios. Necesitamos bioinformáticos que los analicen.
+Nuestra población tiene una genética única — mezcla maya, española y africana.\
+Los modelos entrenados en Europa **no siempre funcionan aquí**. Necesitamos datos propios y bioinformáticos que los analicen.
 
 ::: notes
 [~33-36 min] El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros.
@@ -405,20 +399,14 @@ Necesitamos datos genómicos propios. Necesitamos bioinformáticos que los anali
 
 ---
 
-## Una nota que no podemos saltarnos
-
-<br>
+## Una nota que no podemos saltarnos {.smaller}
 
 > *Los datos de salud son de las personas — no del sistema.*
-
-<br>
 
 - **Privacidad:** Consentimiento informado, anonimización, acceso controlado
 - **Equidad:** Los modelos pueden reproducir sesgos existentes — o corregirlos
 - **Interpretación:** Un dato nunca habla solo; necesita contexto clínico
 - **Responsabilidad:** Quien analiza los datos comparte la responsabilidad del impacto
-
-<br>
 
 **La ciencia de datos sin ética es solo vigilancia.**
 
@@ -593,12 +581,7 @@ La red **aprende por ejemplo** — le mostramos miles de imágenes ya etiquetada
 
 ## Una pregunta que cambió el campo
 
-<br>
-
-![](img/leccion-transicion-apollo.png){fig-align="center" style="max-height: 45vh;"}
-
-
-<br>
+![](img/leccion-transicion-apollo.png){fig-align="center" style="max-height: 38vh;"}
 
 > *Si un modelo puede aprender el "lenguaje" de las palabras...*\
 > *¿puede aprender el "lenguaje" completo de un paciente?*
@@ -609,11 +592,11 @@ La red **aprende por ejemplo** — le mostramos miles de imágenes ya etiquetada
 
 ---
 
-## APOLLO — Representación virtual de un paciente
+## APOLLO — Representación virtual de un paciente {.smaller}
 
-![](img/apollo-fuente-de-datos.png){fig-align="center"}
+![](img/apollo-fuente-de-datos.png){fig-align="center" style="max-height: 48vh;"}
 
-**La idea central:** usar la misma arquitectura de los LLMs — pero en vez de aprender el lenguaje humano, aprender el "lenguaje" completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.
+**La idea central:** usar la misma arquitectura de los LLMs para aprender el "lenguaje" completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.
 
 ::: notes
 [~54-55 min] APOLLO es un paper de 2026 — investigación de frontera. Poner en contexto: "No es un producto disponible. Es el horizonte hacia donde va el campo."
@@ -685,9 +668,7 @@ Zhang A, Ding T, Wagner SJ, et al. A multimodal and temporal foundation model fo
 
 ---
 
-## ¿Qué significa todo esto para Guatemala?
-
-<br>
+## ¿Qué significa todo esto para Guatemala? {.smaller}
 
 :::: {.columns}
 
@@ -810,13 +791,11 @@ Su viaje: la maestría y quiénes van a ser
 
 ::: {.column width="50%"}
 
-<br>
 
 Un programador puro no sabe qué pregunta clínica importa.
 
 Un clínico puro no puede analizar 100,000 registros.
 
-<br>
 
 **Ustedes son el puente.**
 
@@ -836,9 +815,8 @@ Esa combinación es la más escasa y la más valiosa del campo.
 
 ## Una comunidad que empieza hoy
 
-<br>
 
-![](img/leccion-comunidad.png){fig-align="center" style="max-height: 45vh;"}
+![](img/leccion-comunidad.png){fig-align="center" style="max-height: 35vh;"}
 
 
 > Los errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.\
@@ -850,9 +828,7 @@ Esa combinación es la más escasa y la más valiosa del campo.
 
 ---
 
-## Lo que les pido para este camino
-
-<br>
+## Lo que les pido para este camino {.smaller}
 
 . . .
 
@@ -876,9 +852,7 @@ Esa combinación es la más escasa y la más valiosa del campo.
 
 ---
 
-## Conclusiones
-
-<br>
+## Conclusiones {.smaller}
 
 - Los datos de salud existen en Guatemala — lo que falta es gente formada para usarlos.
 

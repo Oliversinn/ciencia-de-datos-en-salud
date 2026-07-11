@@ -1012,7 +1012,7 @@
     "href": "leccion-inaugural-julio-2026.html#nivel-1-la-sala-de-consulta",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Nivel 1: La sala de consulta",
-    "text": "Nivel 1: La sala de consulta\nCiencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión y atención\n\n\nVolvamos a María:\nUn analista revisa 5 años de datos del centro de salud de Chimaltenango.\nDescubre: el 38% de los pacientes diabéticos abandona el control antes del cuarto mes.\nPatrón: viven a más de 40 minutos del centro. Todos en zona rural.\n→ La solución no es clínica: es de acceso. Los datos lo revelaron.\n\n[~20-23 min] Conectar siempre con la historia de María. Énfasis: “Esto no requiere inteligencia artificial. Requiere mirar los datos que ya existen.”"
+    "text": "Nivel 1: La sala de consulta\nCiencia de datos en la práctica clínica\n\nAnálisis de registros hospitalarios\nIdentificación de patrones: tratamientos, medicamentos, reingresos\nMejora en la gestión y atención\n\n\nVolvamos a María:\nUn análisis de 5 años revela que el 38% de los diabéticos abandona el control antes del cuarto mes — todos viven a más de 40 min del centro.\n→ La solución no es clínica: es de acceso. Los datos lo revelaron.\n\n[~20-23 min] Conectar siempre con la historia de María. Énfasis: “Esto no requiere inteligencia artificial. Requiere mirar los datos que ya existen.”"
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#nivel-1-visualización",
@@ -1026,7 +1026,7 @@
     "href": "leccion-inaugural-julio-2026.html#nivel-2-el-país-como-paciente",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Nivel 2: El país como paciente",
-    "text": "Nivel 2: El país como paciente\nSalud pública y epidemiología digital\n\nDatos poblacionales → decisiones de política\nVigilancia epidemiológica, predicción de brotes\nOptimización de recursos a escala nacional\n\n\nEl caso del dengue en Guatemala:\nEl brote de 2023 no llegó de sorpresa para los datos — la temperatura, las lluvias y los vectores habían dado señales semanas antes.\nUn sistema de alerta temprana entrenado en esos datos podría haber activado fumigación preventiva con 3-4 semanas de anticipación.\n\n\n→ Menos casos. Menos muertes. Mismo presupuesto.\n\n[~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica. Énfasis: “Esto no es ciencia ficción. Varios países de la región ya tienen sistemas así.”"
+    "text": "Nivel 2: El país como paciente\nSalud pública y epidemiología digital\n\nDatos poblacionales → decisiones de política\nVigilancia epidemiológica, predicción de brotes\nOptimización de recursos a escala nacional\n\n\nEl caso del dengue 2023:\nLos datos de temperatura, lluvias y vectores daban señales semanas antes del brote.\nUn sistema de alerta temprana habría permitido fumigación preventiva con 3-4 semanas de anticipación.\n→ Menos casos. Menos muertes. Mismo presupuesto.\n\n[~24-27 min] Dengue es muy relevante para la audiencia guatemalteca — casi todos lo han visto en su práctica. Énfasis: “Esto no es ciencia ficción. Varios países de la región ya tienen sistemas así.”"
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#nivel-2-vigilancia-epidemiológica",
@@ -1040,7 +1040,7 @@
     "href": "leccion-inaugural-julio-2026.html#nivel-3-la-evidencia-que-cambia-protocolos",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Nivel 3: La evidencia que cambia protocolos",
-    "text": "Nivel 3: La evidencia que cambia protocolos\nCiencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nAnálisis de supervivencia, modelos de riesgo\nDatos del mundo real (real-world evidence)\n\n\nEjemplo:\n¿El protocolo de manejo de preeclampsia que usamos en el IGSS es el más efectivo?\nCon datos de 10 años de historias clínicas y curvas de supervivencia materna, se puede comparar protocolos sin necesitar un ensayo clínico nuevo.\n→ Investigación con los datos que ya tenemos.\n\n[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento — porque los ensayos clínicos son caros y lentos, pero los registros clínicos están llenos de datos reales."
+    "text": "Nivel 3: La evidencia que cambia protocolos\nCiencia de datos en investigación clínica\n\nEvaluación de tratamientos y pronósticos\nAnálisis de supervivencia, modelos de riesgo\nDatos del mundo real (real-world evidence)\n\n\nEjemplo:\n10 años de historias clínicas del IGSS permiten comparar protocolos de preeclampsia sin necesitar un nuevo ensayo clínico.\n→ Investigación con los datos que ya tenemos.\n\n[~28-32 min] Este nivel conecta con investigadores y con clínicos que quieren publicar. “Real-world evidence” es uno de los campos con más crecimiento — porque los ensayos clínicos son caros y lentos, pero los registros clínicos están llenos de datos reales."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#nivel-3-curvas-de-supervivencia",
@@ -1054,7 +1054,7 @@
     "href": "leccion-inaugural-julio-2026.html#nivel-4-cuando-los-genes-hablan",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Nivel 4: Cuando los genes hablan",
-    "text": "Nivel 4: Cuando los genes hablan\nBioinformática clínica\n\nAnálisis de datos genómicos y moleculares\nIdentificación de mutaciones y biomarcadores\nMedicina de precisión: el tratamiento correcto, para el paciente correcto\n\n\nEn Guatemala:\nNuestra población tiene una genética única — mezcla de herencias mayas, españolas y africanas.\nLos modelos de riesgo entrenados en poblaciones europeas no siempre funcionan aquí.\nNecesitamos datos genómicos propios. Necesitamos bioinformáticos que los analicen.\n\n[~33-36 min] El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros."
+    "text": "Nivel 4: Cuando los genes hablan\nBioinformática clínica\n\nAnálisis de datos genómicos y moleculares\nIdentificación de mutaciones y biomarcadores\nMedicina de precisión: el tratamiento correcto, para el paciente correcto\n\n\nEn Guatemala:\nNuestra población tiene una genética única — mezcla maya, española y africana.\nLos modelos entrenados en Europa no siempre funcionan aquí. Necesitamos datos propios y bioinformáticos que los analicen.\n\n[~33-36 min] El argumento de la genética local es poderoso: los estudios de riesgo cardiovascular o de respuesta a medicamentos son distintos en nuestra población. Si no formamos bioinformáticos aquí, dependemos de modelos hechos para otros."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#nivel-4-medicina-de-precisión",
@@ -1068,7 +1068,7 @@
     "href": "leccion-inaugural-julio-2026.html#una-nota-que-no-podemos-saltarnos",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Una nota que no podemos saltarnos",
-    "text": "Una nota que no podemos saltarnos\n\n\nLos datos de salud son de las personas — no del sistema.\n\n\n\nPrivacidad: Consentimiento informado, anonimización, acceso controlado\nEquidad: Los modelos pueden reproducir sesgos existentes — o corregirlos\nInterpretación: Un dato nunca habla solo; necesita contexto clínico\nResponsabilidad: Quien analiza los datos comparte la responsabilidad del impacto\n\n\nLa ciencia de datos sin ética es solo vigilancia.\n\n[~37-39 min] No saltar este slide. Si hay tiempo: preguntar si alguien tiene un ejemplo de sesgo en datos de salud que haya observado en su práctica."
+    "text": "Una nota que no podemos saltarnos\n\nLos datos de salud son de las personas — no del sistema.\n\n\nPrivacidad: Consentimiento informado, anonimización, acceso controlado\nEquidad: Los modelos pueden reproducir sesgos existentes — o corregirlos\nInterpretación: Un dato nunca habla solo; necesita contexto clínico\nResponsabilidad: Quien analiza los datos comparte la responsabilidad del impacto\n\nLa ciencia de datos sin ética es solo vigilancia.\n\n[~37-39 min] No saltar este slide. Si hay tiempo: preguntar si alguien tiene un ejemplo de sesgo en datos de salud que haya observado en su práctica."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#recapitulación-los-cuatro-niveles",
@@ -1152,14 +1152,14 @@
     "href": "leccion-inaugural-julio-2026.html#una-pregunta-que-cambió-el-campo",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Una pregunta que cambió el campo",
-    "text": "Una pregunta que cambió el campo\n\n\n\n\n\n\n\n\nSi un modelo puede aprender el “lenguaje” de las palabras…\n¿puede aprender el “lenguaje” completo de un paciente?\n\n\n[~53-54 min] Pausa dramática. “No el historial escrito en notas — sino toda su información: labs, imágenes, signos vitales, medicamentos, diagnósticos… todo al mismo tiempo, a lo largo del tiempo.”"
+    "text": "Una pregunta que cambió el campo\n\n\n\n\n\n\nSi un modelo puede aprender el “lenguaje” de las palabras…\n¿puede aprender el “lenguaje” completo de un paciente?\n\n\n[~53-54 min] Pausa dramática. “No el historial escrito en notas — sino toda su información: labs, imágenes, signos vitales, medicamentos, diagnósticos… todo al mismo tiempo, a lo largo del tiempo.”"
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#apollo-representación-virtual-de-un-paciente",
     "href": "leccion-inaugural-julio-2026.html#apollo-representación-virtual-de-un-paciente",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "APOLLO — Representación virtual de un paciente",
-    "text": "APOLLO — Representación virtual de un paciente\n\nLa idea central: usar la misma arquitectura de los LLMs — pero en vez de aprender el lenguaje humano, aprender el “lenguaje” completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.\n\n[~54-55 min] APOLLO es un paper de 2026 — investigación de frontera. Poner en contexto: “No es un producto disponible. Es el horizonte hacia donde va el campo.”"
+    "text": "APOLLO — Representación virtual de un paciente\n\n\n\n\n\nLa idea central: usar la misma arquitectura de los LLMs para aprender el “lenguaje” completo del historial clínico de un paciente: notas, laboratorios, imágenes, signos vitales, todo junto.\n\n[~54-55 min] APOLLO es un paper de 2026 — investigación de frontera. Poner en contexto: “No es un producto disponible. Es el horizonte hacia donde va el campo.”"
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#apollo-el-embedding-de-un-paciente",
@@ -1201,7 +1201,7 @@
     "href": "leccion-inaugural-julio-2026.html#qué-significa-todo-esto-para-guatemala",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "¿Qué significa todo esto para Guatemala?",
-    "text": "¿Qué significa todo esto para Guatemala?\n\n\n\nLo que la IA puede hacer:\n\nLeer imágenes médicas con alta precisión\nProcesar texto clínico en español\nEncontrar patrones en millones de registros\nAnticipar riesgos individuales y poblacionales\n\n\nLo que la IA NO puede hacer sola:\n\nSaber qué pregunta clínica vale la pena hacer\nInterpretar resultados con criterio médico y cultural\nAdaptar un modelo entrenado en EEUU a nuestra población\nTomar decisiones éticas sobre uso de datos\n\n\n\n\nEso lo hacen ustedes.\n\n\n[~57-58 min] Este es el argumento central de toda la presentación: la IA necesita profesionales de salud con criterio de datos."
+    "text": "¿Qué significa todo esto para Guatemala?\n\n\nLo que la IA puede hacer:\n\nLeer imágenes médicas con alta precisión\nProcesar texto clínico en español\nEncontrar patrones en millones de registros\nAnticipar riesgos individuales y poblacionales\n\n\nLo que la IA NO puede hacer sola:\n\nSaber qué pregunta clínica vale la pena hacer\nInterpretar resultados con criterio médico y cultural\nAdaptar un modelo entrenado en EEUU a nuestra población\nTomar decisiones éticas sobre uso de datos\n\n\n\n\nEso lo hacen ustedes.\n\n\n[~57-58 min] Este es el argumento central de toda la presentación: la IA necesita profesionales de salud con criterio de datos."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#section-4",
@@ -1229,28 +1229,28 @@
     "href": "leccion-inaugural-julio-2026.html#el-perfil-único-que-tienen",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "El perfil único que tienen",
-    "text": "El perfil único que tienen\n\n\n\n\n\n\n\n\n\nUn programador puro no sabe qué pregunta clínica importa.\nUn clínico puro no puede analizar 100,000 registros.\n\nUstedes son el puente.\nEntienden al paciente y aprenderán a hablarle a los datos.\nEsa combinación es la más escasa y la más valiosa del campo.\n\n\n[~65-67 min] Slide de identidad profesional. Que salgan sabiendo exactamente quiénes son y por qué importan."
+    "text": "El perfil único que tienen\n\n\n\n\n\n\n\n\nUn programador puro no sabe qué pregunta clínica importa.\nUn clínico puro no puede analizar 100,000 registros.\nUstedes son el puente.\nEntienden al paciente y aprenderán a hablarle a los datos.\nEsa combinación es la más escasa y la más valiosa del campo.\n\n\n[~65-67 min] Slide de identidad profesional. Que salgan sabiendo exactamente quiénes son y por qué importan."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#una-comunidad-que-empieza-hoy",
     "href": "leccion-inaugural-julio-2026.html#una-comunidad-que-empieza-hoy",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Una comunidad que empieza hoy",
-    "text": "Una comunidad que empieza hoy\n\n\n\n\n\n\n\nLos errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.\nNo están solos en esto.\n\n\n[~67-68 min] Sentido de comunidad y legado. Cerrar esta sección con calidez."
+    "text": "Una comunidad que empieza hoy\n\n\n\n\n\n\nLos errores y aprendizajes de esta primera cohorte van a definir el camino para las que vienen.\nNo están solos en esto.\n\n\n[~67-68 min] Sentido de comunidad y legado. Cerrar esta sección con calidez."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#lo-que-les-pido-para-este-camino",
     "href": "leccion-inaugural-julio-2026.html#lo-que-les-pido-para-este-camino",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Lo que les pido para este camino",
-    "text": "Lo que les pido para este camino\n\n\nTraigan su curiosidad clínica — es su ventaja, no su limitación.\n\n\nNo teman al código ni a la estadística — son herramientas. Se aprenden con práctica, con paciencia y con buenos profesores.\n\n\nPregúntense siempre: ¿este análisis ayuda de verdad al paciente? ¿Al sistema? ¿A las comunidades más vulnerables?\n\n\nTengan paciencia con el proceso — un semestre los va a desafiar. Dos semestres los van a transformar.\n\n[~68-70 min] Cierre motivacional. Hablar despacio, con peso en cada punto."
+    "text": "Lo que les pido para este camino\n\nTraigan su curiosidad clínica — es su ventaja, no su limitación.\n\n\nNo teman al código ni a la estadística — son herramientas. Se aprenden con práctica, con paciencia y con buenos profesores.\n\n\nPregúntense siempre: ¿este análisis ayuda de verdad al paciente? ¿Al sistema? ¿A las comunidades más vulnerables?\n\n\nTengan paciencia con el proceso — un semestre los va a desafiar. Dos semestres los van a transformar.\n\n[~68-70 min] Cierre motivacional. Hablar despacio, con peso en cada punto."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#conclusiones",
     "href": "leccion-inaugural-julio-2026.html#conclusiones",
     "title": "Descifrando la Salud a través de los Datos",
     "section": "Conclusiones",
-    "text": "Conclusiones\n\n\nLos datos de salud existen en Guatemala — lo que falta es gente formada para usarlos.\nLa ciencia de datos en salud no reemplaza al profesional clínico: lo amplifica.\nLos cuatro niveles van de lo cotidiano a la bioinformática — todos necesarios, todos complementarios.\nLa IA (modelos de visión, LLMs, representaciones de paciente como APOLLO) ya es parte del horizonte real del campo.\nEsta maestría existe para que Guatemala no espere a que el futuro llegue de afuera.\n\n\n[~70 min] Resumen rápido. La última frase es el cierre emocional — dar peso a cada palabra."
+    "text": "Conclusiones\n\nLos datos de salud existen en Guatemala — lo que falta es gente formada para usarlos.\nLa ciencia de datos en salud no reemplaza al profesional clínico: lo amplifica.\nLos cuatro niveles van de lo cotidiano a la bioinformática — todos necesarios, todos complementarios.\nLa IA (modelos de visión, LLMs, representaciones de paciente como APOLLO) ya es parte del horizonte real del campo.\nEsta maestría existe para que Guatemala no espere a que el futuro llegue de afuera.\n\n\n[~70 min] Resumen rápido. La última frase es el cierre emocional — dar peso a cada palabra."
   },
   {
     "objectID": "leccion-inaugural-julio-2026.html#section-5",
